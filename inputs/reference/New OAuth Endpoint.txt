@@ -1,0 +1,122 @@
+Person Search URL Example
+https://localhost:8443/partnerapi/v3/person/search?personIds=1742230428&pc=ZoomTestQA&key=534a6739-29b3-4a38-ad33-182c01f7a929
+
+Person Detail URL Example
+https://localhost:8443/partnerapi/v3/person/detail?personId=1742230428&pc=ZoomTestQA&key=534a6739-29b3-4a38-ad33-182c01f7a929
+
+Person Match GET URL Example
+https://localhost:8443/partnerapi/v3/person/match?firstName=jon&lastName=smith&emailAddress=jsmith@leonardinsurance.com&pc=ZoomTestQA&key=534a6739-29b3-4a38-ad33-182c01f7a929
+
+Enhanced Person Match URL Example
+https://localhost:8443/partnerapi/v3/enhanced/person/match?firstName=jon&lastName=smith&emailAddress=jsmith@leonardinsurance.com&pc=ZoomTestQAEnhanced&key=4152dc01-e009-4033-9beb-fa3afb9a3a82
+
+Person Match POST URL Example
+URL: https://localhost:8443/partnerapi/v3/person/match
+Accept: application/xml
+Content-Type: application/xml
+Body:
+<matchPersonPostInput xmlns="http://partnerapi.zoominfo.com/partnerapistatic/xsd/V1/MatchPersonPostInput.xsd">
+  <matchInput>
+    <pc>ZoomTestQA</pc>
+    <key>534a6739-29b3-4a38-ad33-182c01f7a929</key>
+    <numMatches>2</numMatches>
+    <echoInput>true</echoInput>
+  </matchInput>
+  <matchPersonInput>
+    <uniqueInputId>1A</uniqueInputId>
+    <firstName>Nick</firstName>
+    <lastName>Norman</lastName>
+    <emailAddress>nnorman@halogensoftware.com</emailAddress>
+  </matchPersonInput>
+  <matchPersonInput>
+    <firstName>Heather</firstName>
+    <lastName>Reisman</lastName>
+  </matchPersonInput>
+  <matchPersonInput>
+    <personId>265274387</personId>
+  </matchPersonInput>
+</matchPersonPostInput>
+
+Enhanced Person Match POST URL Example
+URL: https://localhost:8443/partnerapi/v3/enhanced/person/match
+Accept: application/xml
+Content-Type: application/xml
+Body:
+<?xml version="1.0" encoding="utf-8"?>
+<matchPersonPostInput xmlns="http://partnerapi.zoominfo.com/partnerapistatic/xsd/V1/MatchPersonPostInput.xsd">
+  <matchInput>   
+    <pc>ZoomTestQAEnhanced</pc>
+    <key>02a3098f-6d94-419b-9ede-bea38ff0ec7b</key>
+    <numMatches>2</numMatches>
+    <echoInput>true</echoInput>
+  </matchInput>
+  <matchPersonInput>
+    <uniqueInputId>1A</uniqueInputId>
+    <firstName>Adam</firstName>
+    <lastName>Alami</lastName>
+    <emailAddress>adam.alami@zoominfo.com</emailAddress>
+  </matchPersonInput>
+  <matchPersonInput>
+    <firstName>Heather</firstName>
+    <lastName>Reisman</lastName>
+  </matchPersonInput>
+  <matchPersonInput>
+    <personId>265274387</personId>
+  </matchPersonInput>
+</matchPersonPostInput>
+
+Company Search URL example
+https://localhost:8443/partnerapi/v3/company/search?companyName=mit&state=Massachusetts&pc=ZoomTestQA&key=534a6739-29b3-4a38-ad33-182c01f7a929
+
+Company Detail URL example
+https://localhost:8443/partnerapi/v3/company/detail?companyId=344589814&pc=ZoomTestQA&key=534a6739-29b3-4a38-ad33-182c01f7a929 g
+
+Company Match GET URL example
+https://localhost:8443/partnerapi/v3/company/match?companyId=344589814&pc=ZoomTestQA&key=534a6739-29b3-4a38-ad33-182c01f7a929
+
+Company Match POST URL example
+https://localhost:8443/partnerapi/v3/company/match
+Accept: application/xml
+Content-Type: application/xml
+<?xml version="1.0" encoding="utf-8"?>
+<matchCompanyPostInput xmlns="http://partnerapi.zoominfo.com/partnerapistatic/xsd/V1/MatchCompanyPostInput.xsd">
+  <matchInput> 
+    <pc>ZoomTestQA</pc>
+    <key>b2ec0015-3a76-4262-8185-881b894edcf1</key>
+    <numMatches>2</numMatches>
+    <echoInput>false</echoInput>
+  </matchInput> 
+  <matchCompanyInput>
+    <uniqueInputId>111AA</uniqueInputId>
+    <companyId>25248427</companyId>
+    <name>The Mitre Corporation</name>
+    <matchCompanyContactInput>
+      <street>202 Burlington Road</street>
+      <city>Bedford</city>
+    </matchCompanyContactInput>
+    <matchCompanyContactInput>
+      <state>Massachusetts</state>
+      <zip>01730</zip> 
+    </matchCompanyContactInput>
+  </matchCompanyInput>
+  <matchCompanyInput>
+    <uniqueInputId>222BB</uniqueInputId>
+    <domain>www.google.com</domain>
+    <ticker>GOOG</ticker>
+    <matchCompanyContactInput>
+      <city>Boston</city>
+    </matchCompanyContactInput>
+    <matchCompanyContactInput>
+      <city>California</city>
+    </matchCompanyContactInput>
+  </matchCompanyInput>
+</matchCompanyPostInput>
+
+Usage Query
+https://localhost:8443/partnerapi/labs/usage/query?pc=ZoomTestQAFormComplete&outputType=xml&key=3e0c7aca-be79-4335-924d-8866f97180d2&queryTypeOptions=form_complete_person_match,form_complete_person_match_existence
+
+https://localhost:8443/partnerapi/v3/usage/query?pc=ZoomTestQAEnhanced&queryTypeOptions=enhanced_api_person_match,enhanced_person_match_existence&key=4152dc01-e009-4033-9beb-fa3afb9a3a82
+
+https://localhost:8443/partnerapi/v3/usage/query?pc=ZoomTestQA&outputType=xml&key=534a6739-29b3-4a38-ad33-182c01f7a929&queryTypeOptions=person_match_existence
+
+

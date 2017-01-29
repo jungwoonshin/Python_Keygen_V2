@@ -1,0 +1,26 @@
+------------
+OAUth 
+------------
+
+----------------------------------------- Checking Server status -----------------------------------------
+
+
+https://lxsjbsoa01:8443/oauth2/serverstatus
+
+
+https://lxsjbsoa02:8443/oauth2/serverstatus
+
+
+https://lxsjbsoa03:8443/oauth2/serverstatus
+
+
+----------------------------------------------------------------------------------------------------------
+
+
+https://lxpjbsoa01:8443/oauth2/serverstatus
+
+
+https://lxpjbsoa02:8443/oauth2/serverstatus
+
+
+https://lxpjbsoa03:8443/oauth2/serverstatus

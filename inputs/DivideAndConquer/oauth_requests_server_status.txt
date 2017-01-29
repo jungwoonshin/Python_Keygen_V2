@@ -1,0 +1,26 @@
+------------
+OAUth 
+------------
+
+----------------------------------------- Checking Server status -----------------------------------------
+
+
+https://lxsjbsoa01.xoominfo.com:8443/oauth2/serverstatus
+
+
+https://lxsjbsoa02.xoominfo.com:8443/oauth2/serverstatus
+
+
+https://lxsjbsoa03.xoominfo.com:8443/oauth2/serverstatus
+
+
+----------------------------------------------------------------------------------------------------------
+
+
+https://lxpjbsoa01.xoominfo.com:8443/oauth2/serverstatus
+
+
+https://lxpjbsoa02.xoominfo.com:8443/oauth2/serverstatus
+
+
+https://lxpjbsoa03.xoominfo.com:8443/oauth2/serverstatus

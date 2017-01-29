@@ -1,0 +1,65 @@
+Starting...... 
+
+\nninput
+<?xml version="1.0" ?>
+<matchPersonPostInput xmlns="http://partnerapi.zoominfo.com/partnerapistatic/xsd/V1/MatchPersonPostInput.xsd">
+   
+	
+   <matchInput>
+         
+	
+      <pc>ZoomTestQA</pc>
+      
+	
+      <key>3387b304b21785e760c29e0594a1d58b</key>
+      
+	
+      <numMatches>2</numMatches>
+      
+	
+      <echoInput>true</echoInput>
+      
+	
+   </matchInput>
+   
+	
+   <matchPersonInput>
+      
+	
+      <uniqueInputId>1A</uniqueInputId>
+      
+	
+      <firstName>Nick</firstName>
+      
+	
+      <lastName>Norman</lastName>
+      
+	
+      <emailAddress>nnorman@halogensoftware.com</emailAddress>
+      
+	
+   </matchPersonInput>
+   
+	
+   <matchPersonInput>
+      
+	
+      <firstName>Heather</firstName>
+      
+	
+      <lastName>Reisman</lastName>
+      
+	
+   </matchPersonInput>
+   
+	
+   <matchPersonInput>
+      
+	
+      <personId>265274387</personId>
+      
+	
+   </matchPersonInput>
+   
+	
+</matchPersonPostInput>

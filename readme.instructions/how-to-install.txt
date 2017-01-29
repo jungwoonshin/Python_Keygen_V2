@@ -1,0 +1,34 @@
+
+
+Installation Procedure
+Author: John Shin
+
+
+1. Make sure that you have necessary libraries installed on your computer.
+
+	(1) Python 2.7 Native Library 
+	 	- Visit https://www.python.org/downloads/ , and download 2.7 native library on your pc
+	 	- For Windows, there is exe package installer that automatically installs python.
+        - Also for Windows, you will need to add your "Python27" directory to your PATH environment variable
+	
+	(2) JWT
+		- Visit https://github.com/jpadilla/pyjwt
+		- Left click green button 'Clone or download'
+		- Click Download Zip
+		- Unzip the file and open shell and cd into the location
+		- (Note: You must have python installed on you PC at this point)
+		- In your shell, type:  python setup.py install
+
+	(3) Requests
+		- Visit https://github.com/kennethreitz/requests/tarball/master
+		- Unzip the file, and CD into the "kennethreitz-requests-f40764c" location
+		- In you shell, type:  python setup.py install
+
+
+2. Install Python Testing script
+
+	(1) Unzip Python Test Script on you PC.
+
+	(2) Open shell and cd into the location where you unzipped your files
+
+	(3) Now that you have installed all the necessary files, open how-to-use.txt files for instructions on how to use this script

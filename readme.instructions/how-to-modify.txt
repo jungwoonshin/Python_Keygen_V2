@@ -1,0 +1,74 @@
+------------------------------------------------------------------------------------------------
+This Python Test script folder has three main parts.
+
+
+(1) Input file text file 
+(2) Output file text file
+(3) Python code that takes in (1) and generates (2)
+
+All the text files in inputs/DivideAndConquer fall under (1)
+All the text files in output fall under (2)
+Every other files except (1),(2) are (3)
+
+
+-----------------------------------------------------------------------------------------------
+When you need to test additional enpoints, you only need to modify the input files inside (1).
+
+
+You should modify different files based on the request types.
+Largely, there are two types: API and Form Complete. For each API and Form Complete, there are GET and POST type of requests. 
+
+
+(1) GET Requests
+
+If you want to add GET requests, you need to modify 'api_get_requests.txt' or 'fc_get_requests.txt' depending on the type you want to modify. Let's say that you have added the following request to 'api_get_requests.txt' file 
+
+"http://lxpjbsapi01.xoominfo.com:8080/partnerapi/company/search?companyName=mit&state=Massachusetts&pc=ZoomTestQA&outputType=xml&key=3d55631e1620106165efa4a0d10f5f88&outputFieldOptions=companyPhone,companyfax,companyLogo"
+
+When you run the script, the URL part "lxpjbsapi01.xoominfo.com:8080" will be changed into appropriate machine that you have specified. For example, if you ran the command [python main.py --m 'production03' --t 'apigetrequests']
+Then, lxpjbsapi01.xoominfo.com:8080 will be changed into lxpjbsapi03.xoominfo.com:8080.
+
+
+(2) POST Requests
+
+If you want to add POST requests, you need to modify 'generatePostTestUrlFiles.py'. 
+Let's say you want to add V5 Person Match post request. 
+
+Firstly, you need to define the function which you are going to call inside the function runPostFormCompleteOverallTest() which in on line 345. So define a function called getV5PersonMatch(results, machine, oauthKey). results, machine, and oauthkey are input paramters for the function. results is the file where the output results are going to be saved. machine is the target url endpoint that will be tested. oauthkey is the oauthkey that will be used in generating the url endpoints. When you define a function only the paramter values of url and data will be different which is going to follow what you want to test. Response value and return values are going to be the same.
+
+Secondly, you make a call getV5PersonMatch(results, machine, oauthKey) inside runPostFormCompleteOverallTest().
+
+
+
+
+-----------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,137 @@
+Starting...... ------------
+
+OAUth 
+
+------------
+
+
+
+----------------------------------------- Checking Server status -----------------------------------------
+
+
+
+
+
+-------------------------- Making requests ... --------------------------
+https://lxsjbsoa01.xoominfo.com:8443/oauth2/serverstatus
+--------------------------- Key Before MD5 Encrpytion -----------------------------
+https://lxsjbsoa01.xoominfo.com:8443/oauth2/serverstatus
+---------------------------------------------------------------------------
+<?xml version="1.0" ?>
+<ServerStatus xmlns="http://partnerapi.zoominfo.com/partnerapistatic/xsd/V1/ServerStatus.xsd">
+   <ServerName>lxsjbsoa01.xoominfo.com</ServerName>
+   <BuildNumber>PartnerAPI_DEC2016_DE9125Patch_Build_NT[5]</BuildNumber>
+   <StatusCheck>
+      <Name>TokenStoreQuery</Name>
+      <StatusCode>0</StatusCode>
+      <StatusMessage>Success</StatusMessage>
+   </StatusCheck>
+</ServerStatus>
+
+-------------------------- Finished making requests ------------------------
+
+
+
+-------------------------- Making requests ... --------------------------
+https://lxsjbsoa02.xoominfo.com:8443/oauth2/serverstatus
+--------------------------- Key Before MD5 Encrpytion -----------------------------
+https://lxsjbsoa02.xoominfo.com:8443/oauth2/serverstatus
+---------------------------------------------------------------------------
+<?xml version="1.0" ?>
+<ServerStatus xmlns="http://partnerapi.zoominfo.com/partnerapistatic/xsd/V1/ServerStatus.xsd">
+   <ServerName>lxsjbsoa02.xoominfo.com</ServerName>
+   <BuildNumber>PartnerAPI_DEC2016_DE9125Patch_Build_NT[5]</BuildNumber>
+   <StatusCheck>
+      <Name>TokenStoreQuery</Name>
+      <StatusCode>0</StatusCode>
+      <StatusMessage>Success</StatusMessage>
+   </StatusCheck>
+</ServerStatus>
+
+-------------------------- Finished making requests ------------------------
+
+
+
+-------------------------- Making requests ... --------------------------
+https://lxsjbsoa03.xoominfo.com:8443/oauth2/serverstatus
+--------------------------- Key Before MD5 Encrpytion -----------------------------
+https://lxsjbsoa03.xoominfo.com:8443/oauth2/serverstatus
+---------------------------------------------------------------------------
+<?xml version="1.0" ?>
+<ServerStatus xmlns="http://partnerapi.zoominfo.com/partnerapistatic/xsd/V1/ServerStatus.xsd">
+   <ServerName>lxsjbsoa03.xoominfo.com</ServerName>
+   <BuildNumber>PartnerAPI_DEC2016_DE9125Patch_Build_NT[5]</BuildNumber>
+   <StatusCheck>
+      <Name>TokenStoreQuery</Name>
+      <StatusCode>0</StatusCode>
+      <StatusMessage>Success</StatusMessage>
+   </StatusCheck>
+</ServerStatus>
+
+-------------------------- Finished making requests ------------------------
+
+
+
+----------------------------------------------------------------------------------------------------------
+
+
+
+
+
+-------------------------- Making requests ... --------------------------
+https://lxpjbsoa01.xoominfo.com:8443/oauth2/serverstatus
+--------------------------- Key Before MD5 Encrpytion -----------------------------
+https://lxpjbsoa01.xoominfo.com:8443/oauth2/serverstatus
+---------------------------------------------------------------------------
+<?xml version="1.0" ?>
+<ServerStatus xmlns="http://partnerapi.zoominfo.com/partnerapistatic/xsd/V1/ServerStatus.xsd">
+   <ServerName>lxpjbsoa01.xoominfo.com</ServerName>
+   <BuildNumber>PartnerAPI_DEC2016_DE9125Patch_Build_NT[5]</BuildNumber>
+   <StatusCheck>
+      <Name>TokenStoreQuery</Name>
+      <StatusCode>0</StatusCode>
+      <StatusMessage>Success</StatusMessage>
+   </StatusCheck>
+</ServerStatus>
+
+-------------------------- Finished making requests ------------------------
+
+
+
+-------------------------- Making requests ... --------------------------
+https://lxpjbsoa02.xoominfo.com:8443/oauth2/serverstatus
+--------------------------- Key Before MD5 Encrpytion -----------------------------
+https://lxpjbsoa02.xoominfo.com:8443/oauth2/serverstatus
+---------------------------------------------------------------------------
+<?xml version="1.0" ?>
+<ServerStatus xmlns="http://partnerapi.zoominfo.com/partnerapistatic/xsd/V1/ServerStatus.xsd">
+   <ServerName>lxpjbsoa02.xoominfo.com</ServerName>
+   <BuildNumber>PartnerAPI_DEC2016_DE9125Patch_Build_NT[5]</BuildNumber>
+   <StatusCheck>
+      <Name>TokenStoreQuery</Name>
+      <StatusCode>0</StatusCode>
+      <StatusMessage>Success</StatusMessage>
+   </StatusCheck>
+</ServerStatus>
+
+-------------------------- Finished making requests ------------------------
+
+
+
+-------------------------- Making requests ... --------------------------
+https://lxpjbsoa03.xoominfo.com:8443/oauth2/serverstatus
+--------------------------- Key Before MD5 Encrpytion -----------------------------
+https://lxpjbsoa03.xoominfo.com:8443/oauth2/serverstatus
+---------------------------------------------------------------------------
+<?xml version="1.0" ?>
+<ServerStatus xmlns="http://partnerapi.zoominfo.com/partnerapistatic/xsd/V1/ServerStatus.xsd">
+   <ServerName>lxpjbsoa03.xoominfo.com</ServerName>
+   <BuildNumber>PartnerAPI_DEC2016_DE9125Patch_Build_NT[5]</BuildNumber>
+   <StatusCheck>
+      <Name>TokenStoreQuery</Name>
+      <StatusCode>0</StatusCode>
+      <StatusMessage>Success</StatusMessage>
+   </StatusCheck>
+</ServerStatus>
+
+-------------------------- Finished making requests ------------------------

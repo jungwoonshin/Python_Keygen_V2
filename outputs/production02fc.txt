@@ -1,0 +1,103 @@
+Current Time: 2016-12-13 17:01:03.240665
+
+oauthTokenList generated was...... {'ZoomTestQA': '', 'ZoomTestQAPackageFullContact': '', 'ZoomTestQAEnhanced': '', 'ZoomTestQAPackagePreview': '', 'ZoomTestQAPackagePreviewWithName': ''}
+
+
+
+
+
+
+
+
+-----------------------
+
+FORM COMPLETE:
+
+-----------------------
+
+
+
+https://lxpjbsfc02.xoominfo.com:8443/partnerapi/serverstatus
+
+
+
+https://lxpjbsfc02.xoominfo.com:8443/partnerapi/perfstatus
+
+
+
+------------ (Remove ":8443" on desktop)
+
+
+
+https://partnerapi.zoominfo.com/partnerapi/labs/formcomplete?firstName=jon&lastName=smith&emailAddress=jsmith@leonardinsurance.com&pc=ZoomTestQAFormComplete&outputType=xml&echoInput=true&outputFieldOptions=companyEmployeeCount,jobfunction,managementlevel&numMatches=10
+
+(the above only works form IE and Chrome - not Firefox for some reason)
+
+
+
+
+
+https://lxpjbsfc02.xoominfo.com:8443/partnerapi/labs/formcomplete?firstName=jon&lastName=smith&emailAddress=jsmith@leonardinsurance.com&pc=ZoomTestQAFormComplete&outputType=xml&echoInput=true&outputFieldOptions=companyEmployeeCount,jobfunction,managementlevel,companyLogo&numMatches=10
+
+
+
+EXTRA:
+
+https://lxpjbsfc02.xoominfo.com:8443/partnerapi/labs/formcomplete?fullName=smith jon&emailAddress=jsmith@leonardinsurance.com&pc=ZoomTestQAFormComplete&outputType=xml&echoInput=true&outputFieldOptions=companyEmployeeCount,jobfunction,managementlevel&numMatches=10
+
+
+
+
+
+https://lxpjbsfc02.xoominfo.com:8443/partnerapi/labs/formcomplete?firstName=jon&lastName=smith&emailAddress=jsmith@leonardinsurance.com&pc=ZoomTestQAFormComplete&echoInput=true
+
+
+
+Returns person match:
+
+https://lxpjbsfc02.xoominfo.com:8443/partnerapi/labs/formcomplete?pc=zoomTestQAFormComplete&numMatches=5&emailAddress=eugenia.gillan%40zoominfo.com&echoInput=true
+
+
+
+Returns company match:
+
+https://lxpjbsfc02.xoominfo.com:8443/partnerapi/labs/formcomplete?pc=zoomTestQAFormComplete&numMatches=5&emailAddress=junk%40zoominfo.com&echoInput=true
+
+
+
+EXTRA (using fullName):
+
+-----------------------
+
+https://lxpjbsfc02.xoominfo.com:8443/partnerapi/labs/formcomplete?fullName=smith jon&emailAddress=jsmith@leonardinsurance.com&pc=ZoomTestQAFormComplete&echoInput=true
+
+
+
+
+
+-----------------------
+
+Usage Query
+
+-----------------------
+
+
+
+https://lxpjbsfc02.xoominfo.com:8443/partnerapi/labs/usage/query?pc=ZoomTestQAFormComplete&outputType=xml&queryTypeOptions=form_complete_person_match,form_complete_person_match_existence
+
+
+
+https://lxpjbsfc02.xoominfo.com:8443/partnerapi/labs/v4/usage/query?pc=ZoomTestQAFormComplete&outputType=xml&queryTypeOptions=form_complete_person_match
+
+
+
+https://lxpjbsfc02.xoominfo.com:8443/partnerapi/labs/v4/usage/query?pc=ZoomTestQAFormComplete&outputType=xml
+
+
+
+
+
+WAIT UNTIL LXP IS DEPLOYED TO TRY EXIST QUERY!!!
+
+
+

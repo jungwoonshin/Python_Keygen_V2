@@ -1,0 +1,146 @@
+------------
+OAUth 
+------------
+
+The following steps are required to use the OAuth with the partner API.  You can find the same details in the wiki: 
+http://wiki.eliyon.com/ZOOMWIKI/index.php/OAuth_Endpoints_Usage
+
+For a) and b) use any rest client.  For ex. DHC client in Chrome or RESTClient in Firefox.
+Sometimes the REST client may complain, like there is no certificate available.  In that case, run the following in the browser:
+https://lxpjbsoa01:8443/oauth2/serverstatus
+
+
+GET OAUTH TOKEN FOR ENhanced
+
+The above will import the certificate into your browser.
+
+a) JWT key (You need partner API key application deployed in your local server):
+http://localhost:8080/partnerapikey/zoom/zitoken?pc=ZoomTestQAEnhanced (pwd:123456)
+http://localhost:8080/partnerapikey/zoom/zitoken?pc=ZoomTestQAEnhancedOnly (pwd:testing123)
+(NOTE! - JWTs expire after about an hour!!)
+
+b) Access Token (POST request!):
+https://lxpjbsapi01.xoominfo.com:8443/partnerapi/v2/token  (Enter the data as shown below):
+
+Method: POST
+
+Then under Headers, do Custom Header twice for:
+Accept: application/xml
+Content-Type: application/xml
+
+Body:
+<?xml version="1.0" encoding="utf-8"?>
+<TokenPostInput xmlns="http://partnerapi.zoominfo.com/partnerapistatic/xsd/V1/TokenPostInput.xsd">
+<pc>ZoomTestQAEnhanced</pc>
+<ziToken>eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6b29taW5mbyIsImlhdCI6MTQ2MjIxNDc4MywiZXhwIjoxNDYyMjE4MzgzLCJqdGkiOiI1ZjgwM2UzOC04MjA4LTQyMWQtOWM1NS1kMWI0ZmE2Y2M0MDAiLCJ6aVBheUxvYWQiOnsiemlQYXJ0bmVyQ29kZSI6Ilpvb21UZXN0UUFFbmhhbmNlZCJ9fQ.t0Xs8hylOYEmW3Q3lfUAwo6CsAQlyA3WiZ3P74PavEw</ziToken>
+</TokenPostInput>
+
+Key updated 5.2.2016, 2:50pm
+
+Result: 151c77eb-9aca-49f0-bd85-ba3a576bc60b
+
+<?xml version="1.0" encoding="utf-8"?>
+<TokenPostInput xmlns="http://partnerapi.zoominfo.com/partnerapistatic/xsd/V1/TokenPostInput.xsd">
+<pc>ZoomTestQAEnhancedOnly</pc>
+<ziToken>eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6b29taW5mbyIsImlhdCI6MTQ2MjIxNDUzMywiZXhwIjoxNDYyMjE4MTMzLCJqdGkiOiI4ZDUwYWE3My00ODhiLTRjNWEtODkxMy0zNWM5MGE4MWFmZjEiLCJ6aVBheUxvYWQiOnsiemlQYXJ0bmVyQ29kZSI6Ilpvb21UZXN0UUFFbmhhbmNlZE9ubHkifX0.Mbvy1ej-8nbTQU6gLfs452c1lTqletlQ5VrD9ztVROk</ziToken>
+</TokenPostInput>
+
+Key updated 5.2.2016, 2:50pm
+
+Result for ZoomTestQAEnhancedOnly: 87706440-2344-45b4-9df4-8e83efa53c25
+
+(NOTE! - JWTs expire after about an hour!!)
+
+IF THE ABOVE FAILS TRY PURGING CACHE ON ALL THREE OAUTH SERVERS - SEE BELOW!
+
+
+
+------------------------------------------
+OAUth Enhanced API Person Match using POST 
+------------------------------------------
+
+The following steps are required to use the OAuth with the partner API.  You can find the same details in the wiki: 
+http://wiki.eliyon.com/ZOOMWIKI/index.php/OAuth_Endpoints_Usage
+
+For a) and b) use any rest client.  For ex. DHC client in Chrome or RESTClient in Firefox.
+Sometimes the REST client may complain, like there is no certificate available.  In that case, run the following in the browser:
+https://lxpjbsoa01:8443/oauth2/serverstatus
+https://lxpjbsoa02:8443/oauth2/serverstatus
+https://lxpjbsoa03:8443/oauth2/serverstatus
+
+The above will import the certificate into your browser.
+
+a) JWT key (You need partner API key application deployed in your local server):
+http://localhost:8080/partnerapikey/zoom/zitoken?pc=ZoomTestQAEnhanced
+(NOTE! - JWTs expire after about an hour!!)
+
+b) Access Token (POST request!):
+https://lxpjbsapi01.xoominfo.com:8443/partnerapi/v2/token  (Enter the data as shown below):
+https://lxpjbsapi02.xoominfo.com:8443/partnerapi/v2/token  (Enter the data as shown below):
+https://lxpjbsapi03.xoominfo.com:8443/partnerapi/v2/token  (Enter the data as shown below):
+(STAGING: https://lxsjbsoa01:8443/oauth2/serverstatus or AND
+https://api.staging.zoominfo.com/partnerapi/v2/token - BUT cannot run the person match against localhost unless you disable SSL!)
+
+Method: POST
+
+Then under Headers, do Custom Header twice for:
+Accept: application/xml
+Content-Type: application/xml
+
+Body:
+<?xml version="1.0" encoding="utf-8"?>
+<TokenPostInput xmlns="http://partnerapi.zoominfo.com/partnerapistatic/xsd/V1/TokenPostInput.xsd">
+<pc>ZoomTestQAEnhanced</pc>
+<ziToken>eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6b29taW5mbyIsImlhdCI6MTQ2MjIxNDc4MywiZXhwIjoxNDYyMjE4MzgzLCJqdGkiOiI1ZjgwM2UzOC04MjA4LTQyMWQtOWM1NS1kMWI0ZmE2Y2M0MDAiLCJ6aVBheUxvYWQiOnsiemlQYXJ0bmVyQ29kZSI6Ilpvb21UZXN0UUFFbmhhbmNlZCJ9fQ.t0Xs8hylOYEmW3Q3lfUAwo6CsAQlyA3WiZ3P74PavEw</ziToken>
+</TokenPostInput>
+
+Key updated 5.2.2016, 2:50pm
+
+Result: 151c77eb-9aca-49f0-bd85-ba3a576bc60b
+
+
+
+
+Token validate DIRECTLY TO OAUTH SERVER:
+----------------------------------------
+
+Operation: GET
+URL: https://lxpjbsoa01:8443/oauth2/validate?ziToken=a2196b45-7dd9-4982-8909-eacffc015e3b
+
+
+Accept: application/json
+Content-Type: application/x-www-form-urlencoded
+
+
+Authorization: Bearer <UUID-you got when you requested the token>
+
+
+
+Directly to OAuth server (ALWAYS SSL):
+--------------------------------------
+
+https://lxpjbsoa01.xoominfo.com:8443/oauth2/serverstatus
+
+a) Access Token (POST request!):
+https://lxpjbsoa01.xoominfo.com:8443/oauth2/token  (Enter the data as shown below):
+
+Method: POST
+
+Then under Headers, do Custom Header twice for:
+Accept: application/json
+Content-Type: application/x-www-form-urlencoded
+
+Body: (BE CAREFUL OF "\n" AT THE END OF THIS LINE WHEN COPYING IT!!!!!)
+applicationId=7692&applicationSecret=zoominfoPartnerapiApp&clientId=ZoomTestQAEnhanced&ziToken=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6b29taW5mbyIsImlhdCI6MTQ2MjIxNDk4OCwiZXhwIjoxNDYyMjE4NTg4LCJqdGkiOiI0MDBhYjE0MS00MTBlLTQ1NmItYmY3ZC1hYmFkZTU4MGIxMjMiLCJ6aVBheUxvYWQiOnsiemlQYXJ0bmVyQ29kZSI6Ilpvb21UZXN0UUFFbmhhbmNlZCJ9fQ._1AbOB3YW2KTjGpNwpL_6D8ebW1oA_osvXCqXYrB5IU
+
+applicationId=7692&applicationSecret=zoominfoPartnerapiApp&clientId=ZoomTestQAEnhancedOnly&ziToken=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ6b29taW5mbyIsImlhdCI6MTQ2MjIxNTAwMywiZXhwIjoxNDYyMjE4NjAzLCJqdGkiOiI2Y2Y3YThmYS0wYjkxLTQ2YjItYTU0MS1kMzMwNDhmNWY5NDMiLCJ6aVBheUxvYWQiOnsiemlQYXJ0bmVyQ29kZSI6Ilpvb21UZXN0UUFFbmhhbmNlZE9ubHkifX0.LvuelvcxGauNwxAAkVlJiSFQNL9yu5bwGm56flbddI8
+(NOTE! - JWTs expire after about an hour!!)
+
+Key updated 5.2.2016, 2:50pm
+
+RESULT for ZoomTestQAEnhanced: a2196b45-7dd9-4982-8909-eacffc015e3b
+RESULT for ZoomTestQAEnhancedOnly: 1240f76a-9a43-44be-a745-e0efe4f0c137
+
+
+
+

@@ -1,0 +1,82 @@
+
+
+
+
+TEST OAUTH GENERATE: production01
+get oauthToken using PartnerAPIapp: 5b8a52a1-627a-498e-a396-a28af566cee8
+get oauthToken using OauthWebapp: 2b5aa7e1-f38e-4878-84e2-e71c99fa8682
+
+---------------------------------------------------------------------
+
+
+
+
+
+
+TEST OAUTH GENERATE: production02
+get oauthToken using PartnerAPIapp: 9e69b434-953d-481b-aebf-173b03fbc950
+get oauthToken using OauthWebapp: e87529cc-38b1-4b13-b0b1-1ca8e8c5e37c
+
+---------------------------------------------------------------------
+
+
+
+
+
+
+TEST OAUTH GENERATE: production03
+get oauthToken using PartnerAPIapp: <?xml version="1.0" encoding="utf-8" standalone="yes"?><TokenResponse xmlns="http://partnerapi.zoominfo.com/partnerapistatic/xsd/V1/TokenResponse.xsd"><tokenError><errorCode>9006</errorCode><errorMessage>You have exceeded your token request rate limit. Please decrease the frequency of your token requests or contact Zoom Information, Inc.</errorMessage></tokenError></TokenResponse>
+get oauthToken using OauthWebapp: 7c89dc8c-8522-4fb0-b957-ecbe76142d3b
+
+---------------------------------------------------------------------
+
+
+
+
+
+
+TEST OAUTH GENERATE: production01
+get oauthToken using PartnerAPIapp: c974dd73-fe80-4105-a866-c75f826abafb
+get oauthToken using OauthWebapp: b328e970-851b-4cf5-b6cf-40fd880e2081
+
+---------------------------------------------------------------------
+
+
+
+
+
+
+TEST OAUTH GENERATE: production02
+get oauthToken using PartnerAPIapp: 4ff18206-4554-4194-abb3-4dc89e3d6711
+
+
+
+TEST OAUTH GENERATE: production01
+get oauthToken using PartnerAPIapp: b8e7c593-c620-44c6-911c-c475cc46fd56
+get oauthToken using OauthWebapp: 816408de-d110-4dc2-b45d-dbd2ca7d4cc7
+
+---------------------------------------------------------------------
+
+
+
+
+
+
+TEST OAUTH GENERATE: production02
+get oauthToken using PartnerAPIapp: a2dc1d0e-27f6-4824-ae5f-8d02605f944d
+get oauthToken using OauthWebapp: 3a6b4afe-d530-465a-9f52-2f5049623ae9
+
+---------------------------------------------------------------------
+
+
+
+
+
+
+TEST OAUTH GENERATE: production03
+get oauthToken using PartnerAPIapp: b490bbf1-3d4f-49e9-a75a-c8a3f754848b
+get oauthToken using OauthWebapp: 4f2c97da-ca0a-42c4-bae1-fe581b9692a3
+
+---------------------------------------------------------------------
+
+

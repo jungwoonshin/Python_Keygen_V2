@@ -1,0 +1,877 @@
+Starting...... Current Time: 2016-12-13 17:01:03.240665
+
+
+
+oauthTokenList generated was...... {'ZoomTestQA': '', 'ZoomTestQAPackageFullContact': '', 'ZoomTestQAEnhanced': '', 'ZoomTestQAPackagePreview': '', 'ZoomTestQAPackagePreviewWithName': ''}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-----------------------
+
+
+
+FORM COMPLETE:
+
+
+
+-----------------------
+
+
+
+
+
+
+
+-------------------------- Making requests ... --------------------------
+https://lxpjbsfc02.xoominfo.com:8443/partnerapi/serverstatus
+--------------------------- Key Before MD5 Encrpytion -----------------------------
+https://lxpjbsfc02.xoominfo.com:8443/partnerapi/serverstatus
+---------------------------------------------------------------------------
+<?xml version="1.0" ?>
+<ServerStatus xmlns="http://partnerapi.zoominfo.com/partnerapistatic/xsd/V1/ServerStatus.xsd">
+   <ServerName>lxpjbsfc02.xoominfo.com</ServerName>
+   <BuildNumber>PartnerAPI_DEC2016_DE9125Patch_Build_NT[5]</BuildNumber>
+   <StatusCheck>
+      <Name>CompanySolrServerStatusChecker</Name>
+      <StatusCode>0</StatusCode>
+      <StatusMessage>Success</StatusMessage>
+   </StatusCheck>
+   <StatusCheck>
+      <Name>PersonSolrServerStatusChecker</Name>
+      <StatusCode>0</StatusCode>
+      <StatusMessage>Success</StatusMessage>
+   </StatusCheck>
+   <StatusCheck>
+      <Name>EliyonPostProfileDatabaseCheck</Name>
+      <StatusCode>0</StatusCode>
+      <StatusMessage>Success</StatusMessage>
+   </StatusCheck>
+   <StatusCheck>
+      <Name>ListsDatabaseCheck</Name>
+      <StatusCode>0</StatusCode>
+      <StatusMessage>Success</StatusMessage>
+   </StatusCheck>
+</ServerStatus>
+
+-------------------------- Finished making requests ------------------------
+
+
+
+
+
+-------------------------- Making requests ... --------------------------
+https://lxpjbsfc02.xoominfo.com:8443/partnerapi/perfstatus
+--------------------------- Key Before MD5 Encrpytion -----------------------------
+https://lxpjbsfc02.xoominfo.com:8443/partnerapi/perfstatus
+---------------------------------------------------------------------------
+<?xml version="1.0" ?>
+<PerformanceServerStatus xmlns="http://partnerapi.zoominfo.com/partnerapistatic/xsd/V1/PerformanceServerStatus.xsd">
+   <ServerName>lxpjbsfc02.xoominfo.com</ServerName>
+   <RequestSampleSize>116</RequestSampleSize>
+   <RequestDurationAverage>727</RequestDurationAverage>
+   <RequestDurationStandardDeviation>1674</RequestDurationStandardDeviation>
+   <RequestDurationMaximum>16530</RequestDurationMaximum>
+   <TimeOfOldestSampleRequest>2016-12-13 16:52:46 819</TimeOfOldestSampleRequest>
+   <TimeOfMostRecentSampleRequest>2016-12-13 17:01:00 526</TimeOfMostRecentSampleRequest>
+   <RequestsPerSecond>0.23495717095362229</RequestsPerSecond>
+   <SystemErrorCount>0</SystemErrorCount>
+   <LoadStatus>Light</LoadStatus>
+</PerformanceServerStatus>
+
+-------------------------- Finished making requests ------------------------
+
+
+
+
+
+------------ (Remove ":8443" on desktop)
+
+
+
+
+
+
+
+-------------------------- Making requests ... --------------------------
+https://partnerapi.zoominfo.com/partnerapi/labs/formcomplete?firstName=jon&lastName=smith&emailAddress=jsmith@leonardinsurance.com&pc=ZoomTestQAFormComplete&outputType=xml&echoInput=true&outputFieldOptions=companyEmployeeCount,jobfunction,managementlevel&numMatches=10
+--------------------------- Key Before MD5 Encrpytion -----------------------------
+https://partnerapi.zoominfo.com/partnerapi/labs/formcomplete?firstName=jon&lastName=smith&emailAddress=jsmith@leonardinsurance.com&pc=ZoomTestQAFormComplete&outputType=xml&echoInput=true&outputFieldOptions=companyEmployeeCount,jobfunction,managementlevel&numMatches=10
+---------------------------------------------------------------------------
+<?xml version="1.0" ?>
+<personMatchResponse xmlns="http://partnerapi.zoominfo.com/partnerapistatic/xsd/V1/PersonMatchResponse.xsd">
+   <inputParameters>
+      <parameter>
+         <name>numMatches</name>
+         <value>10</value>
+      </parameter>
+      <parameter>
+         <name>echoInput</name>
+         <value>true</value>
+      </parameter>
+      <parameter>
+         <name>outputFieldOptions</name>
+         <value>companyEmployeeCount,jobfunction,managementlevel</value>
+      </parameter>
+   </inputParameters>
+   <matchResults>
+      <personMatchResults>
+         <personMatchResult>
+            <matchPersonInput>
+               <uniqueInputId>Zoom-1</uniqueInputId>
+               <firstName>jon</firstName>
+               <lastName>smith</lastName>
+               <emailAddress>jsmith@leonardinsurance.com</emailAddress>
+            </matchPersonInput>
+            <personMatches>
+               <personMatch>
+                  <matchConfidence>99.99999999799999</matchConfidence>
+                  <personId>-108503</personId>
+                  <zoomPersonUrl>http://www.zoominfo.com/#!search/profile/person?personId=-108503&amp;targetid=profile</zoomPersonUrl>
+                  <lastMentioned>9/22/2016</lastMentioned>
+                  <isUserPosted>False</isUserPosted>
+                  <isPast>False</isPast>
+                  <referencesCount>42</referencesCount>
+                  <firstName>Jonathan</firstName>
+                  <lastName>Smith</lastName>
+                  <email>jsmith@leonardinsurance.com</email>
+                  <phone>(330) 266-1930</phone>
+                  <fax>(330) 498-9946</fax>
+                  <currentEmployment>
+                     <jobTitle>Projects - Purchasing - Admin.</jobTitle>
+                     <jobFunction>Operations</jobFunction>
+                     <managementLevel>Non-Manager</managementLevel>
+                     <company>
+                        <companyId>22462584</companyId>
+                        <zoomCompanyUrl>http://www.zoominfo.com/#!search/profile/company?companyId=22462584&amp;targetid=profile</zoomCompanyUrl>
+                        <companyName>Leonard Insurance Services Agency Inc</companyName>
+                        <companyPhone>(330) 266-1904</companyPhone>
+                        <companyEmployeeCount>3000</companyEmployeeCount>
+                        <companySic4>6411</companySic4>
+                     </company>
+                  </currentEmployment>
+                  <industry>Insurance</industry>
+                  <dataAnalysisResults>
+                     <qualityMetrics01>
+                        <isKnownFirstName>Yes</isKnownFirstName>
+                        <isKnownLastName>Yes</isKnownLastName>
+                        <isKnownFullName>Yes</isKnownFullName>
+                        <isMalformedEmail>No</isMalformedEmail>
+                        <isFreeEmail>No</isFreeEmail>
+                        <isGenericEmail>No</isGenericEmail>
+                        <isEmailMatchesPersonName>Yes</isEmailMatchesPersonName>
+                        <hasMoved>Uncertain</hasMoved>
+                     </qualityMetrics01>
+                     <normalizedValues01>
+                        <firstName>Jon</firstName>
+                        <lastName>Smith</lastName>
+                     </normalizedValues01>
+                  </dataAnalysisResults>
+               </personMatch>
+            </personMatches>
+         </personMatchResult>
+      </personMatchResults>
+   </matchResults>
+</personMatchResponse>
+
+-------------------------- Finished making requests ------------------------
+
+(the above only works form IE and Chrome - not Firefox for some reason)
+
+
+
+
+
+
+
+
+
+
+
+-------------------------- Making requests ... --------------------------
+https://lxpjbsfc02.xoominfo.com:8443/partnerapi/labs/formcomplete?firstName=jon&lastName=smith&emailAddress=jsmith@leonardinsurance.com&pc=ZoomTestQAFormComplete&outputType=xml&echoInput=true&outputFieldOptions=companyEmployeeCount,jobfunction,managementlevel,companyLogo&numMatches=10
+--------------------------- Key Before MD5 Encrpytion -----------------------------
+https://lxpjbsfc02.xoominfo.com:8443/partnerapi/labs/formcomplete?firstName=jon&lastName=smith&emailAddress=jsmith@leonardinsurance.com&pc=ZoomTestQAFormComplete&outputType=xml&echoInput=true&outputFieldOptions=companyEmployeeCount,jobfunction,managementlevel,companyLogo&numMatches=10
+---------------------------------------------------------------------------
+<?xml version="1.0" ?>
+<personMatchResponse xmlns="http://partnerapi.zoominfo.com/partnerapistatic/xsd/V1/PersonMatchResponse.xsd">
+   <inputParameters>
+      <parameter>
+         <name>numMatches</name>
+         <value>10</value>
+      </parameter>
+      <parameter>
+         <name>echoInput</name>
+         <value>true</value>
+      </parameter>
+      <parameter>
+         <name>outputFieldOptions</name>
+         <value>companyEmployeeCount,jobfunction,managementlevel,companyLogo</value>
+      </parameter>
+   </inputParameters>
+   <matchResults>
+      <personMatchResults>
+         <personMatchResult>
+            <matchPersonInput>
+               <uniqueInputId>Zoom-1</uniqueInputId>
+               <firstName>jon</firstName>
+               <lastName>smith</lastName>
+               <emailAddress>jsmith@leonardinsurance.com</emailAddress>
+            </matchPersonInput>
+            <personMatches>
+               <personMatch>
+                  <matchConfidence>99.99999999799999</matchConfidence>
+                  <personId>-108503</personId>
+                  <zoomPersonUrl>http://www.zoominfo.com/#!search/profile/person?personId=-108503&amp;targetid=profile</zoomPersonUrl>
+                  <lastMentioned>9/22/2016</lastMentioned>
+                  <isUserPosted>False</isUserPosted>
+                  <isPast>False</isPast>
+                  <referencesCount>42</referencesCount>
+                  <firstName>Jonathan</firstName>
+                  <lastName>Smith</lastName>
+                  <email>jsmith@leonardinsurance.com</email>
+                  <phone>(330) 266-1930</phone>
+                  <fax>(330) 498-9946</fax>
+                  <currentEmployment>
+                     <jobTitle>Projects - Purchasing - Admin.</jobTitle>
+                     <jobFunction>Operations</jobFunction>
+                     <managementLevel>Non-Manager</managementLevel>
+                     <company>
+                        <companyId>22462584</companyId>
+                        <zoomCompanyUrl>http://www.zoominfo.com/#!search/profile/company?companyId=22462584&amp;targetid=profile</zoomCompanyUrl>
+                        <companyName>Leonard Insurance Services Agency Inc</companyName>
+                        <companyPhone>(330) 266-1904</companyPhone>
+                        <companyEmployeeCount>3000</companyEmployeeCount>
+                        <companyLogo>http://www.UBAbenefits.com/mfid/193/width/250/height/250/mflogo.png</companyLogo>
+                        <companySic4>6411</companySic4>
+                     </company>
+                  </currentEmployment>
+                  <industry>Insurance</industry>
+                  <dataAnalysisResults>
+                     <qualityMetrics01>
+                        <isKnownFirstName>Yes</isKnownFirstName>
+                        <isKnownLastName>Yes</isKnownLastName>
+                        <isKnownFullName>Yes</isKnownFullName>
+                        <isMalformedEmail>No</isMalformedEmail>
+                        <isFreeEmail>No</isFreeEmail>
+                        <isGenericEmail>No</isGenericEmail>
+                        <isEmailMatchesPersonName>Yes</isEmailMatchesPersonName>
+                        <hasMoved>Uncertain</hasMoved>
+                     </qualityMetrics01>
+                     <normalizedValues01>
+                        <firstName>Jon</firstName>
+                        <lastName>Smith</lastName>
+                     </normalizedValues01>
+                  </dataAnalysisResults>
+               </personMatch>
+            </personMatches>
+         </personMatchResult>
+      </personMatchResults>
+   </matchResults>
+</personMatchResponse>
+
+-------------------------- Finished making requests ------------------------
+
+
+
+
+
+EXTRA:
+
+
+
+-------------------------- Making requests ... --------------------------
+https://lxpjbsfc02.xoominfo.com:8443/partnerapi/labs/formcomplete?fullName=smith jon&emailAddress=jsmith@leonardinsurance.com&pc=ZoomTestQAFormComplete&outputType=xml&echoInput=true&outputFieldOptions=companyEmployeeCount,jobfunction,managementlevel&numMatches=10
+--------------------------- Key Before MD5 Encrpytion -----------------------------
+https://lxpjbsfc02.xoominfo.com:8443/partnerapi/labs/formcomplete?fullName=smith jon&emailAddress=jsmith@leonardinsurance.com&pc=ZoomTestQAFormComplete&outputType=xml&echoInput=true&outputFieldOptions=companyEmployeeCount,jobfunction,managementlevel&numMatches=10
+---------------------------------------------------------------------------
+<?xml version="1.0" ?>
+<personMatchResponse xmlns="http://partnerapi.zoominfo.com/partnerapistatic/xsd/V1/PersonMatchResponse.xsd">
+   <inputParameters>
+      <parameter>
+         <name>numMatches</name>
+         <value>10</value>
+      </parameter>
+      <parameter>
+         <name>echoInput</name>
+         <value>true</value>
+      </parameter>
+      <parameter>
+         <name>outputFieldOptions</name>
+         <value>companyEmployeeCount,jobfunction,managementlevel</value>
+      </parameter>
+   </inputParameters>
+   <matchResults>
+      <personMatchResults>
+         <personMatchResult>
+            <matchPersonInput>
+               <uniqueInputId>Zoom-1</uniqueInputId>
+               <fullName>smith jon</fullName>
+               <emailAddress>jsmith@leonardinsurance.com</emailAddress>
+            </matchPersonInput>
+            <personMatches>
+               <personMatch>
+                  <matchConfidence>99.999999996</matchConfidence>
+                  <personId>-108503</personId>
+                  <zoomPersonUrl>http://www.zoominfo.com/#!search/profile/person?personId=-108503&amp;targetid=profile</zoomPersonUrl>
+                  <lastMentioned>9/22/2016</lastMentioned>
+                  <isUserPosted>False</isUserPosted>
+                  <isPast>False</isPast>
+                  <referencesCount>42</referencesCount>
+                  <firstName>Jonathan</firstName>
+                  <lastName>Smith</lastName>
+                  <email>jsmith@leonardinsurance.com</email>
+                  <phone>(330) 266-1930</phone>
+                  <fax>(330) 498-9946</fax>
+                  <currentEmployment>
+                     <jobTitle>Projects - Purchasing - Admin.</jobTitle>
+                     <jobFunction>Operations</jobFunction>
+                     <managementLevel>Non-Manager</managementLevel>
+                     <company>
+                        <companyId>22462584</companyId>
+                        <zoomCompanyUrl>http://www.zoominfo.com/#!search/profile/company?companyId=22462584&amp;targetid=profile</zoomCompanyUrl>
+                        <companyName>Leonard Insurance Services Agency Inc</companyName>
+                        <companyPhone>(330) 266-1904</companyPhone>
+                        <companyEmployeeCount>3000</companyEmployeeCount>
+                        <companySic4>6411</companySic4>
+                     </company>
+                  </currentEmployment>
+                  <industry>Insurance</industry>
+                  <dataAnalysisResults>
+                     <qualityMetrics01>
+                        <isKnownFirstName>Yes</isKnownFirstName>
+                        <isKnownLastName>Yes</isKnownLastName>
+                        <isKnownFullName>Yes</isKnownFullName>
+                        <isMalformedEmail>No</isMalformedEmail>
+                        <isFreeEmail>No</isFreeEmail>
+                        <isGenericEmail>No</isGenericEmail>
+                        <isEmailMatchesPersonName>Yes</isEmailMatchesPersonName>
+                        <hasMoved>Uncertain</hasMoved>
+                     </qualityMetrics01>
+                     <normalizedValues01>
+                        <firstName>Smith</firstName>
+                        <lastName>Jon</lastName>
+                     </normalizedValues01>
+                  </dataAnalysisResults>
+               </personMatch>
+            </personMatches>
+         </personMatchResult>
+      </personMatchResults>
+   </matchResults>
+</personMatchResponse>
+
+-------------------------- Finished making requests ------------------------
+
+
+
+
+
+
+
+
+
+-------------------------- Making requests ... --------------------------
+https://lxpjbsfc02.xoominfo.com:8443/partnerapi/labs/formcomplete?firstName=jon&lastName=smith&emailAddress=jsmith@leonardinsurance.com&pc=ZoomTestQAFormComplete&echoInput=true
+--------------------------- Key Before MD5 Encrpytion -----------------------------
+https://lxpjbsfc02.xoominfo.com:8443/partnerapi/labs/formcomplete?firstName=jon&lastName=smith&emailAddress=jsmith@leonardinsurance.com&pc=ZoomTestQAFormComplete&echoInput=true
+---------------------------------------------------------------------------
+<?xml version="1.0" ?>
+<personMatchResponse xmlns="http://partnerapi.zoominfo.com/partnerapistatic/xsd/V1/PersonMatchResponse.xsd">
+   <inputParameters>
+      <parameter>
+         <name>echoInput</name>
+         <value>true</value>
+      </parameter>
+   </inputParameters>
+   <matchResults>
+      <personMatchResults>
+         <personMatchResult>
+            <matchPersonInput>
+               <uniqueInputId>Zoom-1</uniqueInputId>
+               <firstName>jon</firstName>
+               <lastName>smith</lastName>
+               <emailAddress>jsmith@leonardinsurance.com</emailAddress>
+            </matchPersonInput>
+            <personMatches>
+               <personMatch>
+                  <matchConfidence>99.99999999799999</matchConfidence>
+                  <personId>-108503</personId>
+                  <zoomPersonUrl>http://www.zoominfo.com/#!search/profile/person?personId=-108503&amp;targetid=profile</zoomPersonUrl>
+                  <lastMentioned>9/22/2016</lastMentioned>
+                  <isUserPosted>False</isUserPosted>
+                  <isPast>False</isPast>
+                  <referencesCount>42</referencesCount>
+                  <firstName>Jonathan</firstName>
+                  <lastName>Smith</lastName>
+                  <email>jsmith@leonardinsurance.com</email>
+                  <phone>(330) 266-1930</phone>
+                  <fax>(330) 498-9946</fax>
+                  <currentEmployment>
+                     <jobTitle>Projects - Purchasing - Admin.</jobTitle>
+                     <company>
+                        <companyId>22462584</companyId>
+                        <zoomCompanyUrl>http://www.zoominfo.com/#!search/profile/company?companyId=22462584&amp;targetid=profile</zoomCompanyUrl>
+                        <companyName>Leonard Insurance Services Agency Inc</companyName>
+                        <companyPhone>(330) 266-1904</companyPhone>
+                        <companySic4>6411</companySic4>
+                     </company>
+                  </currentEmployment>
+                  <industry>Insurance</industry>
+                  <dataAnalysisResults>
+                     <qualityMetrics01>
+                        <isKnownFirstName>Yes</isKnownFirstName>
+                        <isKnownLastName>Yes</isKnownLastName>
+                        <isKnownFullName>Yes</isKnownFullName>
+                        <isMalformedEmail>No</isMalformedEmail>
+                        <isFreeEmail>No</isFreeEmail>
+                        <isGenericEmail>No</isGenericEmail>
+                        <isEmailMatchesPersonName>Yes</isEmailMatchesPersonName>
+                        <hasMoved>Uncertain</hasMoved>
+                     </qualityMetrics01>
+                     <normalizedValues01>
+                        <firstName>Jon</firstName>
+                        <lastName>Smith</lastName>
+                     </normalizedValues01>
+                  </dataAnalysisResults>
+               </personMatch>
+            </personMatches>
+         </personMatchResult>
+      </personMatchResults>
+   </matchResults>
+</personMatchResponse>
+
+-------------------------- Finished making requests ------------------------
+
+
+
+
+
+Returns person match:
+
+
+
+-------------------------- Making requests ... --------------------------
+https://lxpjbsfc02.xoominfo.com:8443/partnerapi/labs/formcomplete?pc=zoomTestQAFormComplete&numMatches=5&emailAddress=eugenia.gillan%40zoominfo.com&echoInput=true
+--------------------------- Key Before MD5 Encrpytion -----------------------------
+https://lxpjbsfc02.xoominfo.com:8443/partnerapi/labs/formcomplete?pc=zoomTestQAFormComplete&numMatches=5&emailAddress=eugenia.gillan%40zoominfo.com&echoInput=true
+---------------------------------------------------------------------------
+<?xml version="1.0" ?>
+<personMatchResponse xmlns="http://partnerapi.zoominfo.com/partnerapistatic/xsd/V1/PersonMatchResponse.xsd">
+   <inputParameters>
+      <parameter>
+         <name>numMatches</name>
+         <value>5</value>
+      </parameter>
+      <parameter>
+         <name>echoInput</name>
+         <value>true</value>
+      </parameter>
+   </inputParameters>
+   <matchResults>
+      <personMatchResults>
+         <personMatchResult>
+            <matchPersonInput>
+               <uniqueInputId>Zoom-1</uniqueInputId>
+               <emailAddress>eugenia.gillan@zoominfo.com</emailAddress>
+            </matchPersonInput>
+            <personMatches>
+               <personMatch>
+                  <matchConfidence>99.99999999997648</matchConfidence>
+                  <personId>37271025</personId>
+                  <zoomPersonUrl>http://www.zoominfo.com/#!search/profile/person?personId=37271025&amp;targetid=profile</zoomPersonUrl>
+                  <lastMentioned>12/5/2016</lastMentioned>
+                  <isUserPosted>True</isUserPosted>
+                  <isPast>False</isPast>
+                  <referencesCount>103</referencesCount>
+                  <imageUrl>https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/1/005/067/0a9/3ebf23b.jpg</imageUrl>
+                  <firstName>Eugenia</firstName>
+                  <middleInitial>S.</middleInitial>
+                  <lastName>Gillan</lastName>
+                  <email>eugenia.gillan@zoominfo.com</email>
+                  <phone>(781) 693-7554</phone>
+                  <fax>(781) 693-7510</fax>
+                  <currentEmployment>
+                     <jobTitle>Vice President Engineering</jobTitle>
+                     <company>
+                        <companyId>344589814</companyId>
+                        <zoomCompanyUrl>http://www.zoominfo.com/#!search/profile/company?companyId=344589814&amp;targetid=profile</zoomCompanyUrl>
+                        <companyName>Zoom Information, Inc.</companyName>
+                        <companyPhone>(781) 693-7500</companyPhone>
+                        <companySic4>7375</companySic4>
+                     </company>
+                  </currentEmployment>
+                  <industry>Search Engines &amp; Internet Portals</industry>
+                  <industry>Media &amp; Internet</industry>
+                  <industry>Advertising &amp; Marketing</industry>
+                  <industry>Business Services</industry>
+                  <industry>Custom Software &amp; Technical Consulting</industry>
+                  <industry>Software</industry>
+                  <dataAnalysisResults>
+                     <qualityMetrics01>
+                        <isKnownFirstName>Uncertain</isKnownFirstName>
+                        <isKnownLastName>Uncertain</isKnownLastName>
+                        <isKnownFullName>Uncertain</isKnownFullName>
+                        <isMalformedEmail>No</isMalformedEmail>
+                        <isFreeEmail>No</isFreeEmail>
+                        <isGenericEmail>No</isGenericEmail>
+                        <isEmailMatchesPersonName>Uncertain</isEmailMatchesPersonName>
+                        <hasMoved>Uncertain</hasMoved>
+                     </qualityMetrics01>
+                     <normalizedValues01/>
+                  </dataAnalysisResults>
+               </personMatch>
+            </personMatches>
+         </personMatchResult>
+      </personMatchResults>
+   </matchResults>
+</personMatchResponse>
+
+-------------------------- Finished making requests ------------------------
+
+
+
+
+
+Returns company match:
+
+
+
+-------------------------- Making requests ... --------------------------
+https://lxpjbsfc02.xoominfo.com:8443/partnerapi/labs/formcomplete?pc=zoomTestQAFormComplete&numMatches=5&emailAddress=junk%40zoominfo.com&echoInput=true
+--------------------------- Key Before MD5 Encrpytion -----------------------------
+https://lxpjbsfc02.xoominfo.com:8443/partnerapi/labs/formcomplete?pc=zoomTestQAFormComplete&numMatches=5&emailAddress=junk%40zoominfo.com&echoInput=true
+---------------------------------------------------------------------------
+<?xml version="1.0" ?>
+<personMatchResponse xmlns="http://partnerapi.zoominfo.com/partnerapistatic/xsd/V1/PersonMatchResponse.xsd">
+   <inputParameters>
+      <parameter>
+         <name>numMatches</name>
+         <value>5</value>
+      </parameter>
+      <parameter>
+         <name>echoInput</name>
+         <value>true</value>
+      </parameter>
+   </inputParameters>
+   <matchResults>
+      <personMatchResults>
+         <personMatchResult>
+            <matchPersonInput>
+               <uniqueInputId>Zoom-1</uniqueInputId>
+               <emailAddress>junk@zoominfo.com</emailAddress>
+            </matchPersonInput>
+            <personMatches>
+               <personMatch>
+                  <matchConfidence>99.0</matchConfidence>
+                  <fax>(781) 693-7510</fax>
+                  <currentEmployment>
+                     <company>
+                        <companyId>344589814</companyId>
+                        <zoomCompanyUrl>http://www.zoominfo.com/#!search/profile/company?companyId=344589814&amp;targetid=profile</zoomCompanyUrl>
+                        <companyName>Zoom Information, Inc.</companyName>
+                        <companyPhone>(781) 693-7500</companyPhone>
+                        <companySic4>7375</companySic4>
+                     </company>
+                  </currentEmployment>
+                  <industry>Search Engines &amp; Internet Portals</industry>
+                  <industry>Media &amp; Internet</industry>
+                  <industry>Advertising &amp; Marketing</industry>
+                  <industry>Business Services</industry>
+                  <industry>Custom Software &amp; Technical Consulting</industry>
+                  <industry>Software</industry>
+                  <dataAnalysisResults>
+                     <qualityMetrics01>
+                        <isKnownFirstName>Uncertain</isKnownFirstName>
+                        <isKnownLastName>Uncertain</isKnownLastName>
+                        <isKnownFullName>Uncertain</isKnownFullName>
+                        <isMalformedEmail>No</isMalformedEmail>
+                        <isFreeEmail>No</isFreeEmail>
+                        <isGenericEmail>No</isGenericEmail>
+                        <isEmailMatchesPersonName>Uncertain</isEmailMatchesPersonName>
+                        <hasMoved>Uncertain</hasMoved>
+                     </qualityMetrics01>
+                     <normalizedValues01/>
+                  </dataAnalysisResults>
+               </personMatch>
+            </personMatches>
+         </personMatchResult>
+      </personMatchResults>
+   </matchResults>
+</personMatchResponse>
+
+-------------------------- Finished making requests ------------------------
+
+
+
+
+
+EXTRA (using fullName):
+
+
+
+-----------------------
+
+
+
+-------------------------- Making requests ... --------------------------
+https://lxpjbsfc02.xoominfo.com:8443/partnerapi/labs/formcomplete?fullName=smith jon&emailAddress=jsmith@leonardinsurance.com&pc=ZoomTestQAFormComplete&echoInput=true
+--------------------------- Key Before MD5 Encrpytion -----------------------------
+https://lxpjbsfc02.xoominfo.com:8443/partnerapi/labs/formcomplete?fullName=smith jon&emailAddress=jsmith@leonardinsurance.com&pc=ZoomTestQAFormComplete&echoInput=true
+---------------------------------------------------------------------------
+<?xml version="1.0" ?>
+<personMatchResponse xmlns="http://partnerapi.zoominfo.com/partnerapistatic/xsd/V1/PersonMatchResponse.xsd">
+   <inputParameters>
+      <parameter>
+         <name>echoInput</name>
+         <value>true</value>
+      </parameter>
+   </inputParameters>
+   <matchResults>
+      <personMatchResults>
+         <personMatchResult>
+            <matchPersonInput>
+               <uniqueInputId>Zoom-1</uniqueInputId>
+               <fullName>smith jon</fullName>
+               <emailAddress>jsmith@leonardinsurance.com</emailAddress>
+            </matchPersonInput>
+            <personMatches>
+               <personMatch>
+                  <matchConfidence>99.999999996</matchConfidence>
+                  <personId>-108503</personId>
+                  <zoomPersonUrl>http://www.zoominfo.com/#!search/profile/person?personId=-108503&amp;targetid=profile</zoomPersonUrl>
+                  <lastMentioned>9/22/2016</lastMentioned>
+                  <isUserPosted>False</isUserPosted>
+                  <isPast>False</isPast>
+                  <referencesCount>42</referencesCount>
+                  <firstName>Jonathan</firstName>
+                  <lastName>Smith</lastName>
+                  <email>jsmith@leonardinsurance.com</email>
+                  <phone>(330) 266-1930</phone>
+                  <fax>(330) 498-9946</fax>
+                  <currentEmployment>
+                     <jobTitle>Projects - Purchasing - Admin.</jobTitle>
+                     <company>
+                        <companyId>22462584</companyId>
+                        <zoomCompanyUrl>http://www.zoominfo.com/#!search/profile/company?companyId=22462584&amp;targetid=profile</zoomCompanyUrl>
+                        <companyName>Leonard Insurance Services Agency Inc</companyName>
+                        <companyPhone>(330) 266-1904</companyPhone>
+                        <companySic4>6411</companySic4>
+                     </company>
+                  </currentEmployment>
+                  <industry>Insurance</industry>
+                  <dataAnalysisResults>
+                     <qualityMetrics01>
+                        <isKnownFirstName>Yes</isKnownFirstName>
+                        <isKnownLastName>Yes</isKnownLastName>
+                        <isKnownFullName>Yes</isKnownFullName>
+                        <isMalformedEmail>No</isMalformedEmail>
+                        <isFreeEmail>No</isFreeEmail>
+                        <isGenericEmail>No</isGenericEmail>
+                        <isEmailMatchesPersonName>Yes</isEmailMatchesPersonName>
+                        <hasMoved>Uncertain</hasMoved>
+                     </qualityMetrics01>
+                     <normalizedValues01>
+                        <firstName>Smith</firstName>
+                        <lastName>Jon</lastName>
+                     </normalizedValues01>
+                  </dataAnalysisResults>
+               </personMatch>
+            </personMatches>
+         </personMatchResult>
+      </personMatchResults>
+   </matchResults>
+</personMatchResponse>
+
+-------------------------- Finished making requests ------------------------
+
+
+
+
+
+
+
+
+
+-----------------------
+
+
+
+Usage Query
+
+
+
+-----------------------
+
+
+
+
+
+
+
+-------------------------- Making requests ... --------------------------
+https://lxpjbsfc02.xoominfo.com:8443/partnerapi/labs/usage/query?pc=ZoomTestQAFormComplete&outputType=xml&queryTypeOptions=form_complete_person_match,form_complete_person_match_existence
+--------------------------- Key Before MD5 Encrpytion -----------------------------
+https://lxpjbsfc02.xoominfo.com:8443/partnerapi/labs/usage/query?pc=ZoomTestQAFormComplete&outputType=xml&queryTypeOptions=form_complete_person_match,form_complete_person_match_existence
+---------------------------------------------------------------------------
+<?xml version="1.0" ?>
+<usageQueryResponse xmlns="http://partnerapi.zoominfo.com/partnerapistatic/xsd/V1/UsageQueryResponse.xsd">
+   <inputParameters>
+      <parameter>
+         <name>queryTypeOptions</name>
+         <value>form_complete_person_match,form_complete_person_match_existence</value>
+      </parameter>
+   </inputParameters>
+   <queryResult>
+      <overallUsageLimit>
+         <currentQueryUsage>3400159</currentQueryUsage>
+         <usageRemaining>-3390159</usageRemaining>
+         <queryLimit>10000</queryLimit>
+         <limitType>Soft Limit</limitType>
+         <limitTerms>Per Contractual Year</limitTerms>
+         <usageBillingStartDate>01/07/2015</usageBillingStartDate>
+      </overallUsageLimit>
+      <queryTypeUsageLimits>
+         <queryType>form_complete_person_match</queryType>
+         <queryTypeQueryLimit>
+            <currentQueryUsage>69123</currentQueryUsage>
+            <usageRemaining>Unlimited</usageRemaining>
+            <queryLimit>Unlimited</queryLimit>
+            <limitType>Soft Limit</limitType>
+            <limitTerms>Per Month</limitTerms>
+         </queryTypeQueryLimit>
+         <resultsPerQueryLimit>10</resultsPerQueryLimit>
+      </queryTypeUsageLimits>
+      <queryTypeUsageLimits>
+         <queryType>form_complete_person_match_existence</queryType>
+         <queryTypeQueryLimit>
+            <currentQueryUsage>6</currentQueryUsage>
+            <usageRemaining>Unlimited</usageRemaining>
+            <queryLimit>Unlimited</queryLimit>
+            <limitType>Soft Limit</limitType>
+            <limitTerms>Per Month</limitTerms>
+         </queryTypeQueryLimit>
+         <resultsPerQueryLimit>1</resultsPerQueryLimit>
+      </queryTypeUsageLimits>
+   </queryResult>
+</usageQueryResponse>
+
+-------------------------- Finished making requests ------------------------
+
+
+
+
+
+-------------------------- Making requests ... --------------------------
+https://lxpjbsfc02.xoominfo.com:8443/partnerapi/labs/v4/usage/query?pc=ZoomTestQAFormComplete&outputType=xml&queryTypeOptions=form_complete_person_match
+--------------------------- Key Before MD5 Encrpytion -----------------------------
+https://lxpjbsfc02.xoominfo.com:8443/partnerapi/labs/v4/usage/query?pc=ZoomTestQAFormComplete&outputType=xml&queryTypeOptions=form_complete_person_match
+---------------------------------------------------------------------------
+<?xml version="1.0" ?>
+<usageQueryResponse xmlns="http://partnerapi.zoominfo.com/partnerapistatic/xsd/V4">
+   <inputParameters>
+      <parameter>
+         <name>queryTypeOptions</name>
+         <value>form_complete_person_match</value>
+      </parameter>
+   </inputParameters>
+   <queryResult>
+      <overallUsageLimit>
+         <currentQueryUsage>3400159</currentQueryUsage>
+         <usageRemaining>-3390159</usageRemaining>
+         <queryLimit>10000</queryLimit>
+         <limitType>Soft Limit</limitType>
+         <limitTerms>Per Contractual Year</limitTerms>
+         <usageBillingStartDate>01/07/2015</usageBillingStartDate>
+      </overallUsageLimit>
+      <queryTypeUsageLimits>
+         <queryType>form_complete_person_match</queryType>
+         <queryTypeQueryLimit>
+            <currentQueryUsage>69123</currentQueryUsage>
+            <usageRemaining>Unlimited</usageRemaining>
+            <queryLimit>Unlimited</queryLimit>
+            <limitType>Soft Limit</limitType>
+            <limitTerms>Per Month</limitTerms>
+         </queryTypeQueryLimit>
+         <resultsPerQueryLimit>10</resultsPerQueryLimit>
+      </queryTypeUsageLimits>
+   </queryResult>
+</usageQueryResponse>
+
+-------------------------- Finished making requests ------------------------
+
+
+
+
+
+-------------------------- Making requests ... --------------------------
+https://lxpjbsfc02.xoominfo.com:8443/partnerapi/labs/v4/usage/query?pc=ZoomTestQAFormComplete&outputType=xml
+--------------------------- Key Before MD5 Encrpytion -----------------------------
+https://lxpjbsfc02.xoominfo.com:8443/partnerapi/labs/v4/usage/query?pc=ZoomTestQAFormComplete&outputType=xml
+---------------------------------------------------------------------------
+<?xml version="1.0" ?>
+<usageQueryResponse xmlns="http://partnerapi.zoominfo.com/partnerapistatic/xsd/V4">
+   <queryResult>
+      <overallUsageLimit>
+         <currentQueryUsage>3400159</currentQueryUsage>
+         <usageRemaining>-3390159</usageRemaining>
+         <queryLimit>10000</queryLimit>
+         <limitType>Soft Limit</limitType>
+         <limitTerms>Per Contractual Year</limitTerms>
+         <usageBillingStartDate>01/07/2015</usageBillingStartDate>
+      </overallUsageLimit>
+      <queryTypeUsageLimits>
+         <queryType>form_complete_person_match</queryType>
+         <queryTypeQueryLimit>
+            <currentQueryUsage>69123</currentQueryUsage>
+            <usageRemaining>Unlimited</usageRemaining>
+            <queryLimit>Unlimited</queryLimit>
+            <limitType>Soft Limit</limitType>
+            <limitTerms>Per Month</limitTerms>
+         </queryTypeQueryLimit>
+         <resultsPerQueryLimit>10</resultsPerQueryLimit>
+      </queryTypeUsageLimits>
+      <queryTypeUsageLimits>
+         <queryType>form_complete_person_match_existence</queryType>
+         <queryTypeQueryLimit>
+            <currentQueryUsage>6</currentQueryUsage>
+            <usageRemaining>Unlimited</usageRemaining>
+            <queryLimit>Unlimited</queryLimit>
+            <limitType>Soft Limit</limitType>
+            <limitTerms>Per Month</limitTerms>
+         </queryTypeQueryLimit>
+         <resultsPerQueryLimit>1</resultsPerQueryLimit>
+      </queryTypeUsageLimits>
+   </queryResult>
+</usageQueryResponse>
+
+-------------------------- Finished making requests ------------------------
+
+
+
+
+
+
+
+
+
+WAIT UNTIL LXP IS DEPLOYED TO TRY EXIST QUERY!!!
+
+
+
+
+
+
+

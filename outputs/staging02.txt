@@ -1,0 +1,1000 @@
+Current Time: 2017-01-09 16:44:43.934337
+
+oauthTokenList generated was...... {'ZoomTestQA': '3db40344-d0f9-4daa-bbc6-8801705e87ab', 'ZoomTestQAPackageFullContact': '3dc3826a-3cd5-431f-9fc2-4b5ccc411293', 'ZoomTestQAEnhanced': 'a64a5301-967f-4087-b17c-56bbaa36b524', 'ZoomTestQAPackagePreview': '7323e6e6-c36b-4869-9b78-edc276e13684', 'ZoomTestQAPackagePreviewWithName': '22c12676-61ec-47af-b554-164818afd941'}
+
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/serverstatus
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/perfstatus
+
+
+
+xsd file https://lxpjbsapi01.xoominfo.com:8080/partnerapistatic/xsd/V1/AuthnPro.xsd 
+
+xsd file https://lxpjbsapi01.xoominfo.com:8080/partnerapistatic/xsd/V1/AuthnProPostInput.xsd 
+
+xsd file https://lxpjbsapi01.xoominfo.com:8080/partnerapistatic/xsd/V1/CompanyDetail.xsd
+
+xsd file https://lxpjbsapi01.xoominfo.com:8080/partnerapistatic/xsd/V1/CompanyMatchResponse.xsd
+
+xsd file https://lxpjbsapi01.xoominfo.com:8080/partnerapistatic/xsd/V1/CompanyQuery.xsd
+
+xsd file https://lxpjbsapi01.xoominfo.com:8080/partnerapistatic/xsd/V1/Credits.xsd 
+
+xsd file https://lxpjbsapi01.xoominfo.com:8080/partnerapistatic/xsd/V1/ErrorResponse.xsd
+
+xsd file https://lxpjbsapi01.xoominfo.com:8080/partnerapistatic/xsd/V1/MatchCompanyInput.xsd 
+
+xsd file https://lxpjbsapi01.xoominfo.com:8080/partnerapistatic/xsd/V1/MatchCompanyPostInput.xsd 
+
+xsd file https://lxpjbsapi01.xoominfo.com:8080/partnerapistatic/xsd/V1/MatchInput.xsd
+
+xsd file https://lxpjbsapi01.xoominfo.com:8080/partnerapistatic/xsd/V1/MatchPersonInput.xsd 
+
+xsd file https://lxpjbsapi01.xoominfo.com:8080/partnerapistatic/xsd/V1/MatchPersonPostInput.xsd 
+
+xsd file https://lxpjbsapi01.xoominfo.com:8080/partnerapistatic/xsd/V1/PeopleQuery.xsd 
+
+xsd file https://lxpjbsapi01.xoominfo.com:8080/partnerapistatic/xsd/V1/PerformanceServerStatus.xsd 
+
+xsd file https://lxpjbsapi01.xoominfo.com:8080/partnerapistatic/xsd/V1/PersonDetail.xsd
+
+xsd file https://lxpjbsapi01.xoominfo.com:8080/partnerapistatic/xsd/V1/PersonMatchResponse.xsd 
+
+xsd file https://lxpjbsapi01.xoominfo.com:8080/partnerapistatic/xsd/V1/ServerStatus.xsd 
+
+xsd file https://lxpjbsapi01.xoominfo.com:8080/partnerapistatic/xsd/V1/UsageQueryResponse.xsd
+
+
+
+------------ (Remove ":8080" on desktop)
+
+key before encryption: miMa 123456 572015  (July 5th, 2015)
+
+key before encryption: miMa123456592015  (July 5th, 2015)
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/xmloutput.aspx?query_type=company_search_query&companyName=mit&state=Massachusetts&pc=ZoomTestQA&outputType=xml&key=a9bab0e55f199966fb9fcd0df6937a99&outputFieldOptions=companyPhone,companyfax,companyLogo
+
+
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/company/search?companyName=mit&state=Massachusetts&pc=ZoomTestQA&outputType=xml&key=a9bab0e55f199966fb9fcd0df6937a99&outputFieldOptions=companyPhone,companyfax,companyLogo
+
+
+
+------------
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/xmloutput.aspx?query_type=company_detail&companyId=344589814&pc=ZoomTestQA&outputType=xml&key=d76cc343b9e379307e509a2b8c837bfe&includekeyperson=true&outputFieldOptions=companyLogo
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/company/detail?companyId=344589814&pc=ZoomTestQA&outputType=xml&key=d76cc343b9e379307e509a2b8c837bfe&includekeyperson=true&outputFieldOptions=companyLogo
+
+
+
+------------
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/match/company?companyId=344589814&pc=ZoomTestQA&outputType=xml&state1=Massachusetts&key=d76cc343b9e379307e509a2b8c837bfe&echoInput=true&outputFieldOptions=companyFax,companyLogo,companysic,companynaics,companyproductsandservices
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/company/match?companyId=344589814&pc=ZoomTestQA&outputType=xml&state1=Massachusetts&key=d76cc343b9e379307e509a2b8c837bfe&echoInput=true&outputFieldOptions=companyFax,companyLogo,companysic,companynaics,companyproductsandservices
+
+
+
+------------
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/xmloutput.aspx?query_type=people_search_query&lastName=chou&state=Massachusetts&pc=ZoomTestQA&outputType=xml&key=c972e2802afab0f70436c3acfe4f78d1&outputFieldOptions=localaddress,companyaddress,jobfunction,managementlevel,companyLogo&rpp=10
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/person/search?lastName=chou&state=Massachusetts&pc=ZoomTestQA&outputType=xml&key=c972e2802afab0f70436c3acfe4f78d1&outputFieldOptions=localaddress,companyaddress,jobfunction,managementlevel,companyLogo&rpp=10
+
+
+
+
+
+------------
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/xmloutput.aspx?query_type=person_detail&personId=-1937616756&pc=ZoomTestQA&outputType=xml&key=81035680fa1c2e3f8f7b8cc0d0876b39&outputFieldOptions=jobfunction,managementlevel,companyLogo
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/person/detail?personId=-1937616756&pc=ZoomTestQA&outputType=xml&key=81035680fa1c2e3f8f7b8cc0d0876b39&outputFieldOptions=jobfunction,managementlevel,companyLogo
+
+
+
+------------
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/match/person?firstName=jon&lastName=smith&emailAddress=jsmith@leonardinsurance.com&pc=ZoomTestQA&outputType=xml&key=84c89c99f575fcb6febfb374bd53ba8a&echoInput=true&outputFieldOptions=companyEmployeeCount,jobfunction,managementlevel,companyLogo&numMatches=10
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/person/match?firstName=jon&lastName=smith&emailAddress=jsmith@leonardinsurance.com&pc=ZoomTestQA&outputType=xml&key=84c89c99f575fcb6febfb374bd53ba8a&echoInput=true&outputFieldOptions=companyEmployeeCount,jobfunction,managementlevel,companyLogo,pastemployment,webreference,education&numMatches=10
+
+
+
+EXTRA (using fullName):
+
+-----------------------
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/person/match?fullName=smith jon&emailAddress=jsmith@leonardinsurance.com&pc=ZoomTestQA&outputType=xml&key=b11d57c6f46f593090b4b009a015edac&echoInput=true&outputFieldOptions=companyEmployeeCount,jobfunction,managementlevel,pastemployment,webreference,education&numMatches=10
+
+
+
+EXTRA (using personIds):
+
+-----------------------
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/person/search?personIds=64026753,-1937616756,-1905017117&pc=ZoomTestQA&outputType=xml&key=34948e8f05e588019c67be32e6664e26&outputFieldOptions=localaddress,companyaddress,jobfunction,managementlevel&rpp=10
+
+
+
+EXTRA (using companyIds):
+
+-----------------------
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/company/search?companyIds=344589814,345878502,348016691&pc=ZoomTestQA&outputType=xml&key=d76cc343b9e379307e509a2b8c837bfe&outputFieldOptions=companyPhone,companyfax
+
+
+
+EXTRA (using exist):
+
+-----------------------
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v2/person/match/exist?fullName=smith jon&emailAddress=jsmith@leonardinsurance.com&pc=ZoomTestQA&outputType=xml&echoInput=true&outputFieldOptions=companyEmployeeCount,jobfunction,managementlevel,companyLogo&numMatches=10
+
+
+
+EXTRA (using exist with Enhanced):
+
+---------------------------------
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v2/person/match/exist?fullName=smith jon&emailAddress=jsmith@leonardinsurance.com&pc=ZoomTestQAEnhanced&outputType=xml&echoInput=true&outputFieldOptions=companyEmployeeCount,jobfunction,managementlevel,companyLogo&numMatches=10
+
+
+
+EXTRA (location):
+
+-----------------
+
+Key updated 5.2.2016, 2:05pm
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/company/search?location=Dublin&pc=ZoomTestQA&outputType=xml&key=8026f925aff4a6515394aa522415495d&outputFieldOptions=companyPhone,companyfax,companyLogo
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/person/search?location=lowville&pc=ZoomTestQA&outputType=xml&key=cc0906f96cd40341b0b9c7ea2185b640&outputFieldOptions=localaddress,companyaddress,jobfunction,managementlevel,companyLogo&rpp=10
+
+
+
+EXTRA (locationSearchType - new biz dev stuff):
+
+---------------------------
+
+
+
+PersonOrHQ,   // either the Person or Company HQ is at selected location
+
+PersonAndHQ,  // both the Person and the Company HQ are at selected location
+
+Person,       // Person is at selected location
+
+HQ;           // Company HQ is at selected location
+
+
+
+loPe123456252016 OR loHQ123456252016
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/person/search?location=lowville&locationSearchType=Person&pc=ZoomTestQA&outputType=xml&key=222a0561b0e22247a6e50afe7b811efe&outputFieldOptions=localaddress,companyaddress,jobfunction,managementlevel,companyLogo&rpp=10
+
+
+
+(Not working before 4.15.2016 partnerapi_Spring4Migration release, locationSearchType IS SUPPORTED after this release!!!!! Need to test it)
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/person/search?location=lowville&locationSearchType=HQ&pc=ZoomTestQA&outputType=xml&key=7dfe5f740531c2ea23c1fcfb42cb2bfe&outputFieldOptions=localaddress,companyaddress,jobfunction,managementlevel,companyLogo&rpp=10
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/person/search?location=lowville&locationSearchType=PersonThenHQ&pc=ZoomTestQA&outputType=xml&key=222a0561b0e22247a6e50afe7b811efe&outputFieldOptions=localaddress,companyaddress,jobfunction,managementlevel,companyLogo&rpp=10
+
+
+
+
+
+EXTRA (country - new biz dev stuff):
+
+-----------------------------------
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/company/search?country=Country.Sweden&pc=ZoomTestQA&outputType=xml&key=01dc0c9b6aab34d7872d60ca843ce14a&outputFieldOptions=companyPhone,companyfax,companyLogo
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/person/search?country=Country.Sweden&pc=ZoomTestQA&outputType=xml&key=01dc0c9b6aab34d7872d60ca843ce14a&outputFieldOptions=localaddress,companyaddress,jobfunction,managementlevel,companyLogo&rpp=10
+
+
+
+
+
+EXTRA (industryKeywords):
+
+-------------------------
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/company/search?industryKeywords=degree,school&pc=ZoomTestQA&outputType=xml&key=c9e9676692cfca1870005be0f7d17c27&outputFieldOptions=companyPhone,companyfax,companyLogo
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/person/search?industryKeywords=data,marketing&pc=ZoomTestQA&outputType=xml&key=89c01c471f9153c6277d294f63ebdd3f&outputFieldOptions=localaddress,companyaddress,jobfunction,managementlevel,companyLogo&rpp=10
+
+
+
+
+
+EXTRA (hasedEmails):
+
+-------------------------
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/person/match?pc=ZoomTestQA&outputType=xml&key=a30d676ce308bfc103a4abe2c89973ab&hashedemail=3fef53eebbf6d9ac029b4299c449260c8a50b437
+
+
+
+
+
+EXTRA (externalurl):
+
+-------------------------
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/person/match?pc=ZoomTestQA&outputType=xml&key=a30d676ce308bfc103a4abe2c89973ab&externalurl=https://www.linkedin.com/pub/john-van-hoesen/29/790/b33
+
+
+
+EXTRA (fullName):
+
+-------------------------
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/person/search?fullName=john shin&pc=ZoomTestQA&outputType=xml&key=a30d676ce308bfc103a4abe2c89973ab
+
+
+------------
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/usage/query?pc=ZoomTestQA&outputType=xml&key=a30d676ce308bfc103a4abe2c89973ab&queryTypeOptions=company_search_query,person_detail
+
+
+
+------------
+
+
+
+DO MANUAL MD5 FOR THIS:
+
+
+
+password: 123456
+
+key before encryption: teoN1, 123456 252016  (May 2nd, 2016)
+
+key before encryption: teoN1,123456252016  (May 2nd, 2016)
+
+
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/zoom/credits/dec/company?key=56fc49a5f95dfb1a35f235bc38dfab84&sessionToken=oN2Yc23OAW50Kgp8Y8vqriuq8RgeF-6PD1qsHV4Rnw4gt5PoF1rwvY5HlabwmQxm6svzCQ6ZfIh0s-BKz8CAO49ONeIuvSUU1r86BOun7prSWhjhov7YnQ5tlkA3ngwy5k0gC0wBtBLqy_MJDpl8iFaT_x9_4CHSSBDUaNPITXcrwMDTZ46W2-dy7YEoDfdC&ids=1,2,3&pc=ZoomTestQA&exportName=testExport
+
+
+
+
+
+**********************************************************************************************************************************
+
+NOTE: THE ABOVE CREDIT DECREMENT IS NOT RELATED TO THE AUTHNPRO BELOW.  CREDIT DEC uses ZoomTestQA but AUTHNPro uses apiProTest!!!
+
+**********************************************************************************************************************************
+
+------------
+
+
+
+DO MANUAL MD5 FOR THIS:
+
+
+
+password: testPass
+
+key before encryption: apte testPass 252016   (May 2nd, 2016)
+
+key before encryption: aptetestPass252016  (May 2nd, 2016)
+
+
+
+Key updated 5.2.2016, 2:50pm
+
+
+
+For Production:
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/zoom/authn/pro?pc=apiProTest&user=apiProTestMisc@testing.zoominfo.com&pwd=testing123&key=ec7348becab5e1a52f6c2f18cae10c60
+
+
+For Local and Staging(In production expect authentication failure):
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/zoom/authn/pro?pc=apiQaAuto&user=becca.gottesfreund-salomonowicz%40pinnelopepitstopenter.com&pwd=testing123&key=ec7348becab5e1a52f6c2f18cae10c60
+
+
+c) Call person match: (6 hours to expire)
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v2/person/match?firstName=jon&lastName=smith&emailAddress=jsmith@leonardinsurance.com&pc=ZoomTestQAEnhanced&outputType=xml&key=a64a5301-967f-4087-b17c-56bbaa36b524&echoInput=true&outputFieldOptions=companyEmployeeCount,companyRevenueNumeric,jobfunction,managementlevel&numMatches=10
+
+
+
+
+
+------------
+
+
+
+c) Call person match:
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v2/person/match?firstName=jon&lastName=smith&emailAddress=jsmith@leonardinsurance.com&pc=ZoomTestQAEnhanced&outputType=xml&key=a64a5301-967f-4087-b17c-56bbaa36b524&echoInput=true&outputFieldOptions=companyEmployeeCount,companyRevenueNumeric,jobfunction,managementlevel&numMatches=10
+
+
+
+
+
+EXTRA (using fullName):
+
+-----------------------
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v2/person/match?fullName=smith jon&emailAddress=jsmith@leonardinsurance.com&pc=ZoomTestQAEnhanced&outputType=xml&key=a64a5301-967f-4087-b17c-56bbaa36b524&echoInput=true&outputFieldOptions=companyEmployeeCount,companyRevenueNumeric,jobfunction,managementlevel&numMatches=10
+
+
+
+
+
+
+
+EXTRA (using DefinedUniverse):
+
+-----------------------
+
+
+
+EXPECT 0 RESULTS from request below.
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/company/search?companyName=mit&pc=ZoomTestQADefinedUniverse&outputType=xml&key=51c39b0e10540697781b5163a97973df&outputFieldOptions=companyPhone,companyfax,companyLogo
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/company/search?companyName=zoominfo&pc=ZoomTestQADefinedUniverse&outputType=xml&key=f807f7c8bf1f895761c92cd2ccaf19a7&outputFieldOptions=companyPhone,companyfax,companyLogo
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/company/detail?companyId=344589814&pc=ZoomTestQADefinedUniverse&outputType=xml&key=9e071ba203c840d88ed3e4cfcd9aecf8&includekeyperson=true&outputFieldOptions=companyLogo
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/person/search?lastName=chou&state=Massachusetts&pc=ZoomTestQADefinedUniverse&outputType=xml&key=d86b32adaad149e7a79bd99129569e89&outputFieldOptions=localaddress,companyaddress,jobfunction,managementlevel,companyLogo&rpp=10
+
+
+
+EXPECT 'No record found for the specified person ID' RESULTS from request below.
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/person/detail?personId=-1937616756&pc=ZoomTestQADefinedUniverse&outputType=xml&key=e1474bf90033c1a430994cfae14f25f4&outputFieldOptions=jobfunction,managementlevel,companyLogo
+
+
+
+
+
+
+
+EXTRA (using PACKAGES OUTPUTS):
+
+
+
+Order: ZoomTestQAPackagePreview,ZoomTestQAPackagePreviewWithName,ZoomTestQAPackageFullContact
+
+-----------------------
+
+
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/person/search?firstname=Yonatan&lastname=Stern&companyName=zoominfo&pc=ZoomTestQAPackagePreview&outputFieldOptions=localaddress,companyaddress,jobfunction,managementlevel&key=7f403737e3b69d5fbb14898d2b3a6366
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/person/search?firstname=Yonatan&lastname=Stern&companyName=zoominfo&pc=ZoomTestQAPackagePreviewWithName&outputFieldOptions=localaddress,companyaddress,jobfunction,managementlevel&key=7f403737e3b69d5fbb14898d2b3a6366
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/person/search?firstname=Yonatan&lastname=Stern&companyName=zoominfo&pc=ZoomTestQAPackageFullContact&outputFieldOptions=localaddress,companyaddress,jobfunction,managementlevel&key=7f403737e3b69d5fbb14898d2b3a6366
+ 
+
+
+
+
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/person/detail?personId=457877&pc=ZoomTestQAPackagePreview&outputFieldOptions=localaddress,jobfunction,managementlevel&key=749accf714505a81622c20fda40d9901
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/person/detail?personId=457877&pc=ZoomTestQAPackagePreviewWithName&outputFieldOptions=localaddress,jobfunction,managementlevel&key=749accf714505a81622c20fda40d9901
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/person/detail?personId=457877&pc=ZoomTestQAPackageFullContact&outputFieldOptions=localaddress,jobfunction,managementlevel&key=749accf714505a81622c20fda40d9901
+ 
+
+
+
+
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/person/match?firstname=Yonatan&lastname=Stern&companyName=zoominfo&pc=ZoomTestQAPackagePreview&outputFieldOptions=localaddress,companyaddress,jobfunction,managementlevel&key=7f403737e3b69d5fbb14898d2b3a6366
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/person/match?firstname=Yonatan&lastname=Stern&companyName=zoominfo&pc=ZoomTestQAPackagePreviewWithName&outputFieldOptions=localaddress,companyaddress,jobfunction,managementlevel&key=7f403737e3b69d5fbb14898d2b3a6366
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/person/match?firstname=Yonatan&lastname=Stern&companyName=zoominfo&pc=ZoomTestQAPackageFullContact&outputFieldOptions=localaddress,companyaddress,jobfunction,managementlevel&key=7f403737e3b69d5fbb14898d2b3a6366
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-----------------------------------
+
+
+
+New OAuth endpoint for regular query
+
+
+
+-----------------------------------
+
+V3 Endpoints
+
+-----------------------------------
+
+Person Search URL Example
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v3/person/search?lastName=chou&state=Massachusetts&pc=ZoomTestQA&outputType=xml&key=3db40344-d0f9-4daa-bbc6-8801705e87ab&outputFieldOptions=localaddress,companyaddress,jobfunction,managementlevel,companyLogo&rpp=10
+
+
+
+Person Detail URL Example
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v3/person/detail?personId=1742230428&pc=ZoomTestQA&key=3db40344-d0f9-4daa-bbc6-8801705e87ab
+
+
+Person Match GET URL Example
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v3/person/match?firstName=jon&lastName=smith&emailAddress=jsmith@leonardinsurance.com&pc=ZoomTestQA&key=3db40344-d0f9-4daa-bbc6-8801705e87ab
+
+
+Enhanced Person Match URL Example
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v3/enhanced/person/match?firstName=jon&lastName=smith&emailAddress=jsmith@leonardinsurance.com&pc=ZoomTestQAEnhanced&key=a64a5301-967f-4087-b17c-56bbaa36b524
+
+
+
+
+
+
+Company Search URL example
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v3/company/search?companyName=mit&state=Massachusetts&pc=ZoomTestQA&key=3db40344-d0f9-4daa-bbc6-8801705e87ab
+
+
+Company Detail URL example
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v3/company/detail?companyId=344589814&pc=ZoomTestQA&key=3db40344-d0f9-4daa-bbc6-8801705e87ab
+
+
+Company Match GET URL example
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v3/company/match?companyId=344589814&pc=ZoomTestQA&key=3db40344-d0f9-4daa-bbc6-8801705e87ab
+
+
+
+
+
+
+Usage Query
+
+
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v3/usage/query?pc=ZoomTestQAEnhanced&queryTypeOptions=enhanced_api_person_match,enhanced_person_match_existence&key=a64a5301-967f-4087-b17c-56bbaa36b524
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v3/usage/query?pc=ZoomTestQA&outputType=xml&key=3db40344-d0f9-4daa-bbc6-8801705e87ab&queryTypeOptions=person_match_existence
+
+
+
+----------------------------
+
+V4 Endpoints
+
+----------------------------
+
+
+
+Person Search URL Example
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v4/person/search?lastName=chou&state=Massachusetts&pc=ZoomTestQA&outputType=xml&key=3db40344-d0f9-4daa-bbc6-8801705e87ab&outputFieldOptions=localaddress,companyaddress,jobfunction,managementlevel,companyLogo,companyType&rpp=10
+
+
+
+Person Detail URL Example
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v4/person/detail?personId=1742230428&pc=ZoomTestQA&key=3db40344-d0f9-4daa-bbc6-8801705e87ab
+
+
+Person Match GET URL Example
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v4/person/match?firstName=jon&lastName=smith&emailAddress=jsmith@leonardinsurance.com&pc=ZoomTestQA&key=3db40344-d0f9-4daa-bbc6-8801705e87ab
+
+
+Enhanced Person Match URL Example
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v4/enhanced/person/match?firstName=jon&lastName=smith&emailAddress=jsmith@leonardinsurance.com&pc=ZoomTestQAEnhanced&key=a64a5301-967f-4087-b17c-56bbaa36b524
+
+
+
+
+
+
+Company Search URL example
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v4/company/search?companyName=mit&state=Massachusetts&pc=ZoomTestQA&key=3db40344-d0f9-4daa-bbc6-8801705e87ab
+
+
+Company Detail URL example
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v4/company/detail?companyId=344589814&pc=ZoomTestQA&key=3db40344-d0f9-4daa-bbc6-8801705e87ab
+
+
+Company Match GET URL example
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v4/company/match?companyId=344589814&pc=ZoomTestQA&key=3db40344-d0f9-4daa-bbc6-8801705e87ab
+
+
+
+
+
+
+Usage Query
+
+
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v4/usage/query?pc=ZoomTestQAEnhanced&queryTypeOptions=enhanced_api_person_match,enhanced_person_match_existence&key=a64a5301-967f-4087-b17c-56bbaa36b524
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v4/usage/query?pc=ZoomTestQA&outputType=xml&key=3db40344-d0f9-4daa-bbc6-8801705e87ab&queryTypeOptions=person_match_existence
+
+
+
+--------------------------------
+
+
+
+
+
+
+
+FORM COMPLETE:
+
+-------------
+
+
+
+EXTRA (using exist - NOTE: THIS MUST HIT THE LXP BOXES, NOT LXT BECAUSE LOAD BALANCER WILL NOT LET IT GO TO LXT DUE TO NO /labs):
+
+---------------------------------------------------------------------------------------------------------------------------------
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v2/person/match/exist?fullName=smith jon&emailAddress=jsmith@leonardinsurance.com&pc=ZoomTestQAFormComplete&outputType=xml&echoInput=true&outputFieldOptions=companyEmployeeCount,jobfunction,managementlevel,companyLogo&numMatches=10
+
+(MUST BE lxp!!!! and not use SSL.)
+
+
+
+===============================================================
+
+
+
+
+
+EXTRA (using fullname 09/14/2016):
+
+-----------------------
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v4/person/search?fullname=john shin&pc=ZoomTestQA&outputType=xml&key=3db40344-d0f9-4daa-bbc6-8801705e87ab&outputFieldOptions=localaddress,companyaddress,jobfunction,managementlevel,companyLogo,companyType&rpp=10
+
+
+
+
+
+
+
+All Outputfieldoptions:
+
+------------------
+
+Company Search:
+
+ 
+
+EXPECT Company address, company website, company revenue, and company employee count all show by default.
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/company/search?companyIds=344589814,345878502,348016691&pc=ZoomTestQA&outputType=xml&key=d76cc343b9e379307e509a2b8c837bfe&outputFieldOptions=companyfax,companyPhone,companylogo,companyrevenuenumeric,companyrevenuerange,companyemployeerange,companyTopLevelIndustry,companyIds,companyproductsandservices,companysic,companynaics,companymergeracquisition,companyranking
+
+ 
+
+EXPECT Company address, company website, company revenue, company employee count, sic codes and naics codes all show by default.
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v4/company/search?companyIds=344589814,345878502,348016691&pc=ZoomTestQA&outputType=xml&key=3db40344-d0f9-4daa-bbc6-8801705e87ab&outputFieldOptions=companyfax,companyPhone,companylogo,companyrevenuenumeric,companyrevenuerange,companyemployeerange,companyTopLevelIndustry,companyIds,companyproductsandservices,acquiredbycompany,companyhashtags,companyType
+
+
+
+Order hashtags
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v4/company/search?companyIds=344589814,345878502,348016691&pc=ZoomTestQA&outputType=xml&key=3db40344-d0f9-4daa-bbc6-8801705e87ab&outputFieldOptions=companyfax,companyPhone,companylogo,companyrevenuenumeric,companyrevenuerange,companyemployeerange,companyTopLevelIndustry,companyIds,companyproductsandservices,acquiredbycompany,companyhashtags,companyType,orderHashtags
+
+
+
+
+
+Company Detail:
+
+ 
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/company/detail?companyId=344589814&pc=ZoomTestQA&outputType=xml&key=d76cc343b9e379307e509a2b8c837bfe&includekeyperson=true&outputFieldOptions=companyLogo,companyRevenueNumeric,companyRevenueRange,companyEmployeeRange,companyTopLevelIndustry
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v4/company/detail?companyId=344589814&pc=ZoomTestQA&outputType=xml&key=3db40344-d0f9-4daa-bbc6-8801705e87ab&includekeyperson=true&outputFieldOptions=companyLogo,companyRevenueNumeric,companyRevenueRange,companyEmployeeRange,companyTopLevelIndustry,companyproductsandservices,acquiredbycompany,companyhashtags,companyType
+
+
+
+Order hashtag
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v4/company/detail?companyId=344589814&pc=ZoomTestQA&outputType=xml&key=3db40344-d0f9-4daa-bbc6-8801705e87ab&includekeyperson=true&outputFieldOptions=companyLogo,companyRevenueNumeric,companyRevenueRange,companyEmployeeRange,companyTopLevelIndustry,companyproductsandservices,acquiredbycompany,companyhashtags,companyType,orderHashtags
+
+ 
+
+Company Match:
+
+ 
+
+EXPECT Company address, company website, company revenue, and company employee count all show by default.
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/company/match?companyId=344589814&pc=ZoomTestQA&outputType=xml&state1=Massachusetts&key=d76cc343b9e379307e509a2b8c837bfe&echoInput=true&outputFieldOptions=companyFax,companyPhone,companyLogo,companyRevenueNumeric,companyRevenueRange,companyEmployeeRange,companyTopLevelIndustry,companyproductsandservices,companysic,companynaics,companymergeracquisition,companyranking
+
+ 
+
+EXPECT Company address, company website, company revenue, company employee count, sic codes and naics codes all show by default.
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v4/company/match?companyId=344589814&pc=ZoomTestQA&outputType=xml&state1=Massachusetts&key=3db40344-d0f9-4daa-bbc6-8801705e87ab&echoInput=true&outputFieldOptions=companyFax,companyPhone,companyLogo,companyRevenueNumeric,companyRevenueRange,companyEmployeeRange,companyTopLevelIndustry,companyproductsandservices,acquiredbycompany,companyhashtags,companyType
+
+
+
+Order hashtag
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v4/company/match?companyId=344589814&pc=ZoomTestQA&outputType=xml&state1=Massachusetts&key=3db40344-d0f9-4daa-bbc6-8801705e87ab&echoInput=true&outputFieldOptions=companyFax,companyPhone,companyLogo,companyRevenueNumeric,companyRevenueRange,companyEmployeeRange,companyTopLevelIndustry,companyproductsandservices,acquiredbycompany,companyhashtags,companyType,orderHashtags
+
+ 
+
+Person Search:
+
+ 
+
+EXPECT Email, direct phone, company fax all show by default.
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/person/search?lastName=chou&state=Massachusetts&pc=ZoomTestQA&outputType=xml&key=56a549744b07325b42683328aea3da98&rpp=10&TitleClassification=5308418&outputFieldOptions=localaddress,companyWebsite,companyLogo,companyaddress,companyEmployeeCount,companyRevenue,jobFunction,managementLevel,companyRevenueNumeric,companyRevenueRange,companyEmployeeRange,companyTopLevelIndustry,personIds,webReference,education,pastEmployment
+
+ 
+
+EXPECT Email, direct phone, company fax all show by default.
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v4/person/search?lastName=chou&state=Massachusetts&pc=ZoomTestQA&outputType=xml&key=3db40344-d0f9-4daa-bbc6-8801705e87ab&rpp=10&TitleClassification=5308418&outputFieldOptions=localaddress,companyWebsite,companyLogo,companyaddress,companyEmployeeCount,companyRevenue,jobFunction,managementLevel,companyRevenueNumeric,companyRevenueRange,companyEmployeeRange,companyTopLevelIndustry,personIds,companyType
+
+
+
+Order hashtags
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v4/person/search?lastName=chou&state=Massachusetts&pc=ZoomTestQA&outputType=xml&key=3db40344-d0f9-4daa-bbc6-8801705e87ab&rpp=10&TitleClassification=5308418&outputFieldOptions=localaddress,companyWebsite,companyLogo,companyaddress,companyEmployeeCount,companyRevenue,jobFunction,managementLevel,companyRevenueNumeric,companyRevenueRange,companyEmployeeRange,companyTopLevelIndustry,personIds,companyType,companyHashtags,orderHashtags
+
+ 
+
+Person Detail:
+
+ 
+
+EXPECT companyAddress, companyWebsite and companyFax for current and past companies are displayed by default
+
+EXPECT direct phone, companyPhone, and companyFax for the current company are displayed by default
+
+EXPECT companyRevenue, companyRevenueNumeric, companyRevenueRange, companyEmployeeCount, companyEmployeeRange are displayed by default
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/person/detail?personId=-1937616756&pc=ZoomTestQA&outputType=xml&key=81035680fa1c2e3f8f7b8cc0d0876b39&outputFieldOptions=jobfunction,managementlevel,companyLogo,companyTopLevelIndustry,localAddress,gender
+
+
+
+EXPECT companyAddress, companyWebsite and companyFax for current and past companies are displayed by default
+
+EXPECT direct phone, companyPhone, and companyFax for the current company are displayed by default
+
+EXPECT companyRevenue, companyRevenueNumeric, companyRevenueRange, companyEmployeeCount, companyEmployeeRange are displayed by default
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v4/person/detail?personId=-1937616756&pc=ZoomTestQA&outputType=xml&key=3db40344-d0f9-4daa-bbc6-8801705e87ab&outputFieldOptions=jobfunction,managementlevel,companyLogo,companyTopLevelIndustry,localAddress,gender,companyType
+
+
+
+Order Hashtags
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v4/person/detail?personId=-1937616756&pc=ZoomTestQA&outputType=xml&key=3db40344-d0f9-4daa-bbc6-8801705e87ab&outputFieldOptions=jobfunction,managementlevel,companyLogo,companyTopLevelIndustry,localAddress,gender,companyType,companyHashtags,orderHashtags
+
+ 
+
+Person Match:
+
+ 
+
+EXPECT Email, direct phone, company fax all show by default.
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/person/match?firstName=jon&lastName=smith&emailAddress=jsmith@leonardinsurance.com&pc=ZoomTestQA&outputType=xml&key=84c89c99f575fcb6febfb374bd53ba8a&echoInput=true&numMatches=10&outputFieldOptions=localaddress,companyWebsite,companyLogo,companyaddress,companyEmployeeCount,companyRevenue,jobFunction,managementLevel,companyRevenueNumeric,companyRevenueRange,companyEmployeeRange,companyTopLevelIndustry,webReference,education,pastEmployment
+
+ 
+
+EXPECT Email, direct phone, company fax all show by default.
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v4/person/match?firstName=jon&lastName=smith&emailAddress=jsmith@leonardinsurance.com&pc=ZoomTestQA&outputType=xml&key=3db40344-d0f9-4daa-bbc6-8801705e87ab&echoInput=true&numMatches=10&outputFieldOptions=localaddress,companyWebsite,companyLogo,companyaddress,companyEmployeeCount,companyRevenue,jobFunction,managementLevel,companyRevenueNumeric,companyRevenueRange,companyEmployeeRange,companyTopLevelIndustry,companyType
+
+
+
+Order Hashtags
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v4/person/match?firstName=jon&lastName=smith&emailAddress=jsmith@leonardinsurance.com&pc=ZoomTestQA&outputType=xml&key=3db40344-d0f9-4daa-bbc6-8801705e87ab&echoInput=true&numMatches=10&outputFieldOptions=localaddress,companyWebsite,companyLogo,companyaddress,companyEmployeeCount,companyRevenue,jobFunction,managementLevel,companyRevenueNumeric,companyRevenueRange,companyEmployeeRange,companyTopLevelIndustry,companyType,companyHashtags,orderHashtags
+
+
+
+Enhanced Person Match URL Example
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v2/person/match?firstName=jon&lastName=smith&emailAddress=jsmith@leonardinsurance.com&pc=ZoomTestQAEnhanced&key=a64a5301-967f-4087-b17c-56bbaa36b524&outputFieldOptions=localaddress,companyWebsite,companyLogo,companyaddress,companyEmployeeCount,companyRevenue,jobFunction,managementLevel,companyRevenueNumeric,companyRevenueRange,companyEmployeeRange,companyTopLevelIndustry,webReference,education,pastEmployment
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v4/enhanced/person/match?firstName=jon&lastName=smith&emailAddress=jsmith@leonardinsurance.com&pc=ZoomTestQAEnhanced&key=a64a5301-967f-4087-b17c-56bbaa36b524&outputFieldOptions=localaddress,companyWebsite,companyLogo,companyaddress,companyEmployeeCount,companyRevenue,jobFunction,managementLevel,companyRevenueNumeric,companyRevenueRange,companyEmployeeRange,companyTopLevelIndustry,companyType
+
+ 
+
+09.29.2016 Release
+
+--------------------
+
+US18941: Expose faceting for company search
+
+ 
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/company/search?companyIds=344589814,345878502,348016691&pc=ZoomTestQA&outputType=xml&key=d76cc343b9e379307e509a2b8c837bfe&facetOptions=Employees
+
+ 
+
+US19142: Expose "industryCode" (CS and PS) and "personWebReferences" (PS only) input parameters
+
+ 
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/person/search?lastName=smith&state=California&companyName=Google&pc=ZoomTestQA&outputType=xml&key=90141fcd013930e66a5a58489db9d93c&industryCode=SIC6719
+
+ 
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/person/search?lastName=smith&state=California&companyName=Google&pc=ZoomTestQA&outputType=xml&key=90141fcd013930e66a5a58489db9d93c&personWebReferences=google
+
+ 
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/person/search?personIds=64026753,-1937616756,-1905017117&pc=ZoomTestQA&outputType=xml&key=34948e8f05e588019c67be32e6664e26&outputFieldOptions=localaddress,companyaddress,jobfunction,managementlevel&rpp=10
+
+ 
+
+ 
+
+US19173: Implement excludeBoardMembers input parameter for person search
+
+ 
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v4/person/search?pc=ZoomTestQA&key=3db40344-d0f9-4daa-bbc6-8801705e87ab&excludeBoardMembers=true&companyName=zoominfo&firstName=Mark
+
+ 
+
+US19106: Add new companyType input param to company search and person search to do what Pro company type values do
+
+ 
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v4/company/search?pc=ZoomTestQA&key=3db40344-d0f9-4daa-bbc6-8801705e87ab&rpp=1&companyType=Public,Education
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/company/search?pc=ZoomTestQA&key=a30d676ce308bfc103a4abe2c89973ab&rpp=1&companyType=Public,Education
+
+ 
+
+Zipcode:
+
+ 
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/company/search?companyname=network&pc=ZoomTestQA&outputType=xml&zipcode=94089 R3N 1Y1 02215-5635&key=5a2deff74a3af772f29198678372773c
+
+
+
+
+FacetOptions (New Parameter)
+
+------------
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v4/company/search?companyIds=344589814,345878502,348016691&pc=ZoomTestQA&outputType=xml&key=3db40344-d0f9-4daa-bbc6-8801705e87ab&facetoptions=revenue
+
+
+
+ 
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v4/company/detail?companyId=344589814&pc=ZoomTestQA&outputType=xml&key=3db40344-d0f9-4daa-bbc6-8801705e87ab&includekeyperson=true&facetoptions=revenue
+
+
+
+ReturnOnlyBoardMembers & hasCanadianEmail (input)
+
+-----------------
+
+
+
+Person Search URL Example
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v4/person/search?pc=ZoomTestQA&key=3db40344-d0f9-4daa-bbc6-8801705e87ab&excludeBoardMembers=true&companyName=zoominfo&firstName=Mark&hascanadianemail=exclude&returnOnlyBoardMembers=true
+
+
+
+
+
+hasCanadianEmail (outputfieldoptions)
+
+-----------------
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v4/person/search?pc=ZoomTestQA&key=3db40344-d0f9-4daa-bbc6-8801705e87ab&excludeBoardMembers=true&companyName=zoominfo&firstName=Mark&outputfieldoptions=hascanadianemail
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v4/person/detail?personId=1742230428&pc=ZoomTestQA&key=3db40344-d0f9-4daa-bbc6-8801705e87ab&outputfieldoptions=hascanadianemail
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v4/person/match?firstName=jon&lastName=smith&emailAddress=jsmith@leonardinsurance.com&pc=ZoomTestQA&key=3db40344-d0f9-4daa-bbc6-8801705e87ab&outputfieldoptions=hascanadianemail
+
+
+
+
+
+gender (outputfieldoptions) - V4 PS, PM
+
+---------------------
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v4/person/search?pc=ZoomTestQA&key=3db40344-d0f9-4daa-bbc6-8801705e87ab&excludeBoardMembers=true&companyName=zoominfo&firstName=Mark&outputfieldoptions=gender
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v4/person/match?firstName=jon&lastName=smith&emailAddress=jsmith@leonardinsurance.com&pc=ZoomTestQA&key=3db40344-d0f9-4daa-bbc6-8801705e87ab&outputfieldoptions=gender
+
+
+
+
+
+
+
+
+
+HashTagField (New Parameter)
+
+------------
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v4/company/search?hashtagField=%23technology&pc=ZoomTestQA&outputType=xml&key=3db40344-d0f9-4daa-bbc6-8801705e87ab&outputFieldOptions=companyHashtags&rpp=10
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v4/person/search?pc=ZoomTestQA&key=3db40344-d0f9-4daa-bbc6-8801705e87ab&hashtagField=%23technology&outputFieldOptions=companyHashtags&rpp=10
+
+
+
+Multiple value for HashtagField
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v4/company/search?hashtagField=%23technology,%23100_plus_operation&pc=ZoomTestQA&outputType=xml&key=3db40344-d0f9-4daa-bbc6-8801705e87ab&outputFieldOptions=companyHashtags&rpp=10
+
+
+
+https://lxsjbsapi02.xoominfo.com:8443/partnerapi/v4/person/search?pc=ZoomTestQA&key=3db40344-d0f9-4daa-bbc6-8801705e87ab&hashtagField=%23technology,%23100_plus_operation&outputFieldOptions=companyHashtags&rpp=10
+
+
+
